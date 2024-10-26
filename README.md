@@ -1,5 +1,10 @@
 # Recommender-System
-To explore various recommender algorithms available and to develop the new customizable model using LSTM.
+What is recommender System ?. 
+In Simple terms, We us a human acts a recommender to a friends, family and collegues whenever we suggest some products, services, books, movies etc.,
+
+In Big Data World, recommender systems is anything that suggests/recommends the similar products, services to the like minded users is what we call it us a recommendation engine. The most powerful recommendation engine which is available today in Amazon to suggest the product which we likely to hit enter and close the deal, Netflix where we spend lot of time without even checking out clocks, Spotify to suggest similar songs/music which we preferably fell in love with, is all recommender systems. 
+
+Here, we will be exploring various types of recommendation algorithms available today and to develop the new customizable model using deep learning techniques like RNN, CNN, and LSTM.
 
 There are varieties of recommendation systems available and below are the two primary types:
 1. Collaborative Filtering, and
