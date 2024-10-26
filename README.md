@@ -9,15 +9,6 @@ Here, we will be leveraging RecBole libraries to explore various models and to d
 
 Ref: https://recbole.io/
 
-Summary Table
-Dataset	Data Volume	Best Use Case for xLSTM
-Last.fm	~1 GB	Music recommendation
-Spotify Million Playlist	~1.3 GB	Playlist continuation and music discovery
-Foursquare Check-in	~250 MB	Location-based and POI recommendation
-Gowalla Check-in	~80 MB	Location-based recommendations
-Yelp	~9 GB	Business and trend-based recommendations
-Ali-CCP	~78 GB	E-commerce session-based recommendations
-MovieLens 20M	~465 MB	Movie recommendation with temporal patterns
-Amazon Books	~1.4 GB	Long-term interest modeling
-Pinterest Image Dataset	~1.4 TB	Image sequence-based recommendations
-Douban Movie	~80 MB	Movie recommendations over time
+List of Different Varieties of Datasets:
+![image](https://github.com/user-attachments/assets/e842adf0-6eaa-48b7-9ffa-68312db0788e)
+
