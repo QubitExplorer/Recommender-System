@@ -1,9 +1,15 @@
 # Recommender-System: Let me write in my own words!
 
+I do not know anything about recommendation engine while I started writing this, but lets guess what is this and why we need this and who designed the recommendation engine is what we are gonna trace back here. 
+
+Maybe, Lets go back to 1750's. Lets assume you are in Mid-twenties and It's your childhood dreams to buy a new horse. You kept dream about it several days/weeks and started saving penny amount of coins everyday over the period of last few months. Now you have the enough big coins to buy a horse, but you do not know which one to buy and where to buy it. So, now what should we do ?. Lets ask for a **recommendations or suggestions** from the one who has experience (past data), whom you trust (like minded or who shares similar interest) and lets get a good amount of suggestions. 
+
 In simple terms, We us human tend to perceive things around us and often tend to recommend any new products, services to our loved one, they can our friends, family and even our collegues, whenever we like something the most. Similarly in big data world, recommender systems is anything that suggests similar products, services to certain audience who share the common interest. For example., The most powerful recommendation engine which is available today is, 1. Amazon - to suggest similar products which we likely to hit enter and close the deal, 2. Netflix - where we spend lot of time without even checking the clock, 3. Spotify to suggest similar songs and music which we preferably fell in love with, is all recommender engines around us. 
 
 Here, we will be exploring various types of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM, over several iterations.
 
+
+**Restaurant Example:**
 Lets, start with the basic question, how and with whom would you recommend ?. To answer this, lets go restaraunt and I'm feeling like hungry now. Now, I would try some new food which I haven't done it before and at the same time I don't want to spend money and waste my time to try something which I may not like. Now, what we do is ask for a **recommendations or suggestions** from a friend or waiter over there. Lets assume, we got few suggestions from our friends to try for Food A, Food B and Food C. Which would one you pick and how would choose the food ?. In case, if we live in 1650's, where we don't have electronic gadgets, our human brain would subconsiously analyze the situation quickly and would propose "yes" or "No" situation. Either we would trust our friend or a waiter, but we do not know who is the best like minded folk. 
 
 To do that, 
