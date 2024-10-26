@@ -4,8 +4,10 @@
 
 While, I do not know anything about recommendation engine when I started writing this page, but let's guess what it could be, how it might work, why we need this recommendation engine in our day to day life and how we can leverage it further. 
 
-Maybe, Let's go back to the golden year 1750's. Let's assume you are in your mid-twenties and it's your childhood dream to buy a **new horse**, since we don't have Ferrari, BMW at that time. You kept dreamt about it several days, weeks and finally started saving penny amount of coins everyday over the period of last several months. Finally you reached your target, made it, and have enough big coins to buy a new horse, but you **do not know which one to buy** and **where to buy it**. So, now what would we do ?. Well, Lets ask for a **recommendations or suggestions** from the one who have experience **(i.e. past data)**, whom you trust the most **(like minded or who shares similar interest)** and will note down a list of recommendations. 
+Maybe, Let's go back to the golden year 1750's. Let's assume you are in your mid-twenties and it's your childhood dream to buy a **new horse**, since we don't have Ferrari, BMW at that time. You kept dreamt about it several days, weeks and finally started saving penny amount of coins everyday over the period of last several months. Finally you reached your target, made it, and have enough big coins to buy a new horse, but you **do not know which one to buy** and **where to buy it**. So, now what would we do ?. Well, Lets ask for a **recommendations or suggestions** from the one who have experience **(i.e. past data)**, whom you trust the most **(like-minded or who shares similar interest)** and will note down a list of recommendations. 
 
+
+----------------------------------------------------------------------------------------------------------------
 You have three best friends, and all of them are having a equal knowledge but different interests:
 
 As a User (Horse Buyer), you personaly like: **Football, Hiking, Climbing and Reading**
@@ -15,6 +17,7 @@ Friend A: He likes **Football, Hiking, Running, Climbing and Reading**
 Friend B: Likes Singing, Writing and reading books.
 
 Friend C: Likes Cycling (assuming there would be some bicycles on those days) and Singing.  
+-----------------------------------------------------------------------------------------------------------------
 
 Obviously, here **Friend A** has a similar interest like you and you would **assign more weightage** to him, right ?.
 
