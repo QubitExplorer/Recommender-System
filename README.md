@@ -8,7 +8,7 @@ Maybe, Let's go back to the golden year 1750's. Lets assume you are in your mid-
 
 You have three best friends, and all of them are having a equal knowledge but different interests:
 
-As a User (Horse Buyer), I personaly like: **Football, Hiking, Climbing and Reading**
+As a User (Horse Buyer), you personaly like: **Football, Hiking, Climbing and Reading**
 
 Friend A: He likes **Football, Hiking, Running, Climbing and Reading**
 
@@ -16,28 +16,30 @@ Friend B: Likes Singing, Writing and reading books.
 
 Friend C: Likes Cycling (assuming there would be some bicycles on those days) and Singing.  
 
-Obviously, Friend A has a similar interest like me and I would assign more weightage to him. 
+Obviously, here Friend A has a similar interest like you and you would assign more weightage to him, right ?.
 
+Now, its the case of 3 friends with 8 different interest. What's would be the case if you have 100, 000, 0000 million friends and all of them were having 1000, 000, 0000 different varities of interesting data points. Well, we may need to call "Ramanujan" (The Man who Infinity), or we need a super computer to perform huge operations.  
 
-In simple terms, We us human tend to perceive things around us and often tend to recommend any new products, services to our loved one, they can our friends, family and even our collegues, whenever we like something the most. Similarly in big data world, recommender systems is anything that suggests similar products, services to certain audience who share the common interest. For example., The most powerful recommendation engine which is available today is, 1. Amazon - to suggest similar products which we likely to hit enter and close the deal, 2. Netflix - where we spend lot of time without even checking the clock, 3. Spotify to suggest similar songs and music which we preferably fell in love with, is all recommender engines around us. 
+Every one is pretty new, and some one has named it as "Recommender Engine" and the rest of millions of data & computers scientists might have read and started following the similar naming nomenclature in recent years. Just the techniques were different, but the basic concept is same. 
+The one is who is first and developed the best algorithm were:
 
-Here, we will be exploring various types of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM, over several iterations.
+ 1. Amazon (~ Valued today around 1.97 Trillion USD) - Started in a garage - to suggest similar products which we likely to hit enter and close the deal
+ 2. Netflix (~322 billion USD) - where we spend lot of time without even checking the clock and
+ 3. Spotify (~ 74 Billion USD) - to suggest similar songs and musics which we preferably fell in love with, is all recommender engines do around us. 
 
+We have a super computers to perform such operations, 
 
-**Restaurant Example:**
-Lets, start with the basic question, how and with whom would you recommend ?. To answer this, lets go restaraunt and I'm feeling like hungry now. Now, I would try some new food which I haven't done it before and at the same time I don't want to spend money and waste my time to try something which I may not like. Now, what we do is ask for a **recommendations or suggestions** from a friend or waiter over there. Lets assume, we got few suggestions from our friends to try for Food A, Food B and Food C. Which would one you pick and how would choose the food ?. In case, if we live in 1650's, where we don't have electronic gadgets, our human brain would subconsiously analyze the situation quickly and would propose "yes" or "No" situation. Either we would trust our friend or a waiter, but we do not know who is the best like minded folk. 
+Basically we can calculate the **cosine similarities** between one user with respect to other 1 Million friendly users who agreed to share their usage data adhering to GDPR and other data regulations and we are allowed to calculate and will get a combinations of roughly xxxx cosine scores.  This is how Netflix, Amazon perform operations and recommends us the similar products in the ecommerce websites. 
 
-To do that, 
+You could also calculate **correlations** and get the similar products which is similar to horse and can suggest other users as well. 
 
-Friend - Past Data, we know him, his likes, dislikes. If we have a high correlation or cosine similarity, then we would like likely to "Yes". Other "No".
-
-Waiter (in the restaurant) - In this case, Its like a new user data, where you try it out and see, little risk for the first time. 
+Here, we will be further exploring different varieties of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM, over several iterations.
 
 Similary, In modern days there are varieties of recommendation systems available and below are the two primary types:
 1. Collaborative Filtering (User to User), and
 2. Content Based Filtering (Product to Product).
 
-Here, we will be leveraging RecBole libraries to explore various models and to develop more customizable one.
+Here, we will be leveraging RecBole libraries to explore various models and to develop more customizable one. I hope this make sense to some extent. 
 
 Ref: https://recbole.io/
 
