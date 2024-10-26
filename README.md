@@ -2,9 +2,22 @@
 
 #Work in progress
 
-I do not know anything about recommendation engine while I started writing this, but lets guess what is this and why we need this and who designed the recommendation engine is what we are gonna trace back here. 
+Well, I do not know anything about recommendation engine while I started writing this page, but let's guess what it could be, how it might work, why we need this recommendation engine in our day to daya life and how we can leverage it further. 
 
-Maybe, Lets go back to 1750's. Lets assume you are in Mid-twenties and It's your childhood dreams to buy a new horse. You kept dream about it several days/weeks and started saving penny amount of coins everyday over the period of last few months. Now you have the enough big coins to buy a horse, but you do not know which one to buy and where to buy it. So, now what should we do ?. Lets ask for a **recommendations or suggestions** from the one who has experience (past data), whom you trust (like minded or who shares similar interest) and lets get a good amount of suggestions. 
+Maybe, Let's go back to the golden year 1750's. Lets assume you are in your mid-twenties and it's your childhood dream to buy a **new horse**, since we don't have Ferrari, BMW at that time. You kept dreamt about it several days, weeks and finally started saving penny amount of coins everyday over the period of last several months. Finally you made it, and have enough big coins to buy a new horse, but you **do not know which one to buy** and **where to buy it**. So, now what would we do ?. Well, Lets ask for a **recommendations or suggestions** from the one who have experience **(i.e. past data)**, whom you trust **(like minded or who shares similar interest)** and will collect a list of recommendations. 
+
+You have three best friends, and all of them are having a equal knowledge but different interests:
+
+As a User (Horse Buyer), I personaly like: **Football, Hiking, Climbing and Reading**
+
+Friend A: He likes **Football, Hiking, Running, Climbing and Reading**
+
+Friend B: Likes Singing, Writing and reading books.
+
+Friend C: Likes Cycling (assuming there would be some bicycles on those days) and Singing.  
+
+Obviously, Friend A has a similar interest like me and I would assign more weightage to him. 
+
 
 In simple terms, We us human tend to perceive things around us and often tend to recommend any new products, services to our loved one, they can our friends, family and even our collegues, whenever we like something the most. Similarly in big data world, recommender systems is anything that suggests similar products, services to certain audience who share the common interest. For example., The most powerful recommendation engine which is available today is, 1. Amazon - to suggest similar products which we likely to hit enter and close the deal, 2. Netflix - where we spend lot of time without even checking the clock, 3. Spotify to suggest similar songs and music which we preferably fell in love with, is all recommender engines around us. 
 
