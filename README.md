@@ -1,6 +1,6 @@
-# Recommender-System: Let me write in my own words!
+# Recommendation-Engine: Let me write in my own words!
 
-#Work in progress
+#Writing in progress
 
 While, I do not know anything about recommendation engine when I started writing this page, but let's guess what it could be, how it might work, why we need this recommendation engine in our day to day life and how we can leverage it further. 
 
