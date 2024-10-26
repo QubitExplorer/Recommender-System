@@ -9,8 +9,9 @@ Here, we will be leveraging RecBole libraries to explore various models and to d
 
 Ref: https://recbole.io/
 
-1. Last.fm
-Description: Sequential music listening data.
+1. Last.fm, Description: Sequential music listening data.
+
+
 user_id    item_id       timestamp
 1          song_1001     2021-01-01 08:00:00
 1          song_1002     2021-01-01 08:15:00
