@@ -27,7 +27,7 @@ Luckily, the invention of Transitors in 1940's provided the path to highly advan
 
 Basically we can use some build in data analysis statistical functions like correlations, and cosine similarities to calculate and to identify similar users (below is the basic example).
 
-![image](https://github.com/user-attachments/assets/83b06d7f-e39d-4d28-9011-f0de0d40cf1d)
+![image](https://github.com/user-attachments/assets/a102eda4-475a-42f1-a692-e90480215c5e)
 
 ![image](https://github.com/user-attachments/assets/937a996b-487a-436b-8329-4b950d9cfad1)
 
