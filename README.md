@@ -13,7 +13,7 @@ As a User (Horse Buyer), you personaly like: **Football, Hiking, Climbing, Anima
 
 Friend A: Enjoys **Football, Hiking, Running, Animal Caretaker and Climbing**
 
-Friend B: Prefer Singing, Writing and reading.
+Friend B: Prefer Singing, Writing and Reading.
 
 Friend C: Likes Cycling (assuming there would be some bicycles on those days) and Singing.  
 
