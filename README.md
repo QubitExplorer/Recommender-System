@@ -25,6 +25,9 @@ Now, its just about three friends with eight different interest, which is easier
 
 ![image](https://github.com/user-attachments/assets/8db1f3d7-5bb5-4dff-b74a-3f421ae5d2aa)
 
+![image](https://github.com/user-attachments/assets/937a996b-487a-436b-8329-4b950d9cfad1)
+
+Sure, it's a basic example and there are some drawbacks associated with it, like curse of dimensionality etc.,
 
 In big data, excel cannot handle such billion's of data volumn, so we can calculate the **cosine similarities** between one user with respect to other 100 Million friendly users who agreed to share their music watch history and will get a combinations of roughly 1 quatrillion cosine score values which you can store it in on-prem server (and in recent years all most all fortune 500 companies migrated it to cloud).  You can slice and dice the data (ETL) in cloud, apply different statistical concepts, whatever makes sense to you, get the best, quick yet practical results. This is how companies like Netflix and Amazon recommends thousands of products daily. 
 
