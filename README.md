@@ -9,11 +9,11 @@ To understand this, lets imagine we are in the year 1750's. You're in your mid-t
 ----------------------------------------------------------------------------------------------------------------
 Lets say, You have three best friends, and all of them were having equal knowledge but totally different varities of interests:
 
-As a User (Horse Buyer), you personaly like: **Football, Hiking, Climbing and Reading**
+As a User (Horse Buyer), you personaly like: **Football, Hiking, Climbing, Animal Caretaking and Reading**
 
-Friend A: He likes **Football, Hiking, Running, Climbing and Reading**
+Friend A: Enjoys **Football, Hiking, Running, Animal Caretaker and Climbing**
 
-Friend B: Likes Singing, Writing and reading books.
+Friend B: Prefer Singing, Writing and reading.
 
 Friend C: Likes Cycling (assuming there would be some bicycles on those days) and Singing.  
 
@@ -21,7 +21,7 @@ Friend C: Likes Cycling (assuming there would be some bicycles on those days) an
 
 Clearly,  **Friend A** has similar interest more similar to you and you would **assign more weightage ** to him, right ?. In neural networks it called "weights". 
 
-Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if you have (100 million) 100, 000, 000 friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite math genious like "Srinivasa Ramanujan" (The Man who knew Infinity), or invite some unsung heros who hesitated to publish their work online, to perform this set of operations, or else we need a advanced computers to perform these huge operations. Luckily, the invention of Transitors in 1950's provided the path to highly advanced office tools called "MS Excel" by which you can perform approx 1 million data points (i.e 10, 48,576 rows, just press ctrl + down, you will reach there). Basically we can use some build in data analysis statistical functions like correlations, and cosine similarities to calculate and to identify similar users (below is the example).
+Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if you have (100 million) 100, 000, 000 friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite math experts to perform this set of calculations, or else we need an advanced computers to perform this huge operations. Luckily, the invention of Transitors in 1950's provided the path to highly advanced office tools called "MS Excel" by which you can perform approx 1 million data points (i.e 10, 48,576 rows to be precious, just press ctrl + down, you will reach there). Basically we can use some build in data analysis statistical functions like correlations, and cosine similarities to calculate and to identify similar users (below is the example).
 
 In big data, excel cannot handle such billion's of data volumn, so we can calculate the **cosine similarities** between one user with respect to other 100 Million friendly users who agreed to share their music watch history and will get a combinations of roughly 1 quatrillion cosine score values which you can store it in onprem server (and in recent years all most all fortune 500 companies migrated it to cloud).  You can slice and dice the data (ETL) in cloud, apply different statistical concepts, whatever makes sense to you, get the best, quick yet practical results. This is how companies like Netflix and Amazon recommends thousands of products daily. 
 
