@@ -29,7 +29,7 @@ Luckily, the invention of Transitors in 1940's provided the path to highly advan
 
 ![image](https://github.com/user-attachments/assets/937a996b-487a-436b-8329-4b950d9cfad1)
 
-Sure, it's a basic example and there are some drawbacks associated with it, like sparse (zero) values, curse of dimensionality etc.,
+Tt's a very basic example and there are some drawbacks associated with it, like sparse (zero) values, curse of dimensionality etc.,
 
 In big data, excel cannot handle such billion's of data volumn, so we can calculate the **cosine similarities** between one user with respect to other 100 Million friendly users who agreed to share their music watch history and we will get a combinations of roughly 1 quatrillion cosine score values which you can store it in on-prem server (and in recent years all most all major companies migrated it to cloud/hybrid models).  You can slice and dice the data (ETL) in cloud, apply different statistical concepts, whatever makes sense to you, get the best, quick yet practical results. This is how companies like Netflix and Amazon recommends thousands of products daily. 
 
@@ -37,7 +37,7 @@ The field of AI and ML is still young - maybe 20 years old - keeps evolving.  So
 
  1. Amazon - Started in a garage once, to suggest similar products which we likely to hit enter and buy it, today its market value around 1.97 trillion us dollers,
  2. Netflix (~322 billion USD) - where we indulge into our favorite movies without even glancing at the clock, and
- 3. Spotify (~ 74 Billion USD) - Where we listen similar songs and music which we preferably fell in love with, is all about recommendion engines. 
+ 3. Spotify (~ 74 Billion USD) - Where we listen similar songs and music which we preferably fell in love with, is all about recommender systems. 
 
 Here, we will be further exploring different varieties of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM, over several iterations. Similarly, In modern days there are varieties of recommender systems available and below are the two major types:
 1. Collaborative Filtering (User to User), and
