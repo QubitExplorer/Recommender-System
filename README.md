@@ -4,11 +4,11 @@
 
 Instead of throwing some random mathamatical derivations for Recommendation engine, I decided to write below story. When I started writing this page, I knew nothing about recommendation engine.  So, let's guess: what it could be, how it might work, why we need this recommendation engine in our day to day life and how we can leverage it further. 
 
-To understand this, maybe let's go back to the golden year 1750's approx. Let's assume you are in your mid-twenties and it's your childhood dream to buy a **new horse**, since we don't have Ferrari, Tesla at that time. You kept dreamt about it several days, weeks and finally started saving penny amount of coins everyday over the period of last several months. Finally you reached your target, made it, and have enough big coins to buy a new horse, but you **do not know which one to buy** and **where to buy it**. So, now what would we do ?. Well, Lets ask for a **recommendations or suggestions** from the one who have experience **(i.e. past data)**, and whom you trust the most **(like-minded indivituals who shares similar interest)** and collect list of recommendations from each one of them. 
+To understand this, maybe let's go back to the golden year 1750's approx. Let's assume you are in your mid-twenties and it's your childhood dream to buy a **new horse**, since we don't have Ferrari, Tesla at that time. You kept dreamt about it several days, weeks and finally started saving penny amount of coins everyday over the period of last several months. Finally you reached your target, made it, and have enough big coins to buy a new horse, but you **do not know which one to buy** and **where to buy it**. So, now what would we do ?. Well, Lets ask for a **recommendations or suggestions** from the one who have experience **(i.e. past data)**, and **( who shares similar interest)** and you like to gather advise from each of them. 
 
 
 ----------------------------------------------------------------------------------------------------------------
-For example, You have three best friends, and all of them were having equal knowledge but different varities of interests:
+Lets say, You have three best friends, and all of them were having equal knowledge but totally different varities of interests:
 
 As a User (Horse Buyer), you personaly like: **Football, Hiking, Climbing and Reading**
 
@@ -22,11 +22,13 @@ Friend C: Likes Cycling (assuming there would be some bicycles on those days) an
 
 Clearly,  **Friend A** has similar interest more similar to you and you would **assign more weightage ** to him, right ?. In neural networks it called "weights". 
 
-Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if you have 100, 000, 000 (100 million) friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite "Srinivasa Ramanujan" (The Man who knew Infinity) to perform this set of operations, or we need a super computers to perform huge operations. Basically we can calculate the **cosine similarities** between one user with respect to other 100 Million friendly users who agreed to share their music history data and will get a combinations of roughly 1 quatrillion cosine scores values.  You can slice and dice the data (ETL), apply different statistical concepts, whatever it makes sense to you, gets the best and quick results. This is how the big companies like Netflix, Amazon perform mathematical operations and recommends thousands of the similar products in our day to day. 
+Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if you have 100, 000, 000 (100 million) friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite "Srinivasa Ramanujan" (The Man who knew Infinity) to perform this set of operations, or we need a advanced computers to perform these huge operations. Luckily, we invented Transitors in 1950's, so we have highly advanced tools calles "MS Excel" by which we can perform atleast 10 million data points (rows). Basically we can use some build in statistical functions like correlations, and cosine similarities to calculates to identify the similar users (Like below example).
 
-Almost, Every one is pretty new in this AI/ML era, its just 10 years old, it keep evolving over the period of time. Maybe some one has named it as "Recommender Engine" couple of years before and thats how the millions of data and computers scientists were following the similar nomenclature in recent years. Just the techniques might be different, but the concept is same. 
+In big data, excel cannot handle such billions of volumn, so we can calculate the **cosine similarities** between one user with respect to other 100 Million friendly users who agreed to share their music history data and will get a combinations of roughly 1 quatrillion cosine scores values in onprem datasets (and in recent years all most all fortune 500 companies migrated it to cloud).  You can slice and dice the data (ETL) in cloud, apply different statistical concepts, whatever makes sense to you, get the best and quick yet practical results. This is how the big companies like Netflix, Amazon perform mathematical operations and recommends thousands of the similar products day to day. 
 
- 1. Amazon (Market Cap: 1.97 Trillion USD) - Started in a garage once, to suggest similar products which we likely to hit enter and buy it,
+Almost, Every one is pretty new in this AI/ML era, its just 15 years old, it keep evolving over the period of time. Maybe some one has named it as "Recommendation Engine" few years before and thats how millions of data and computers scientists were following the similar nomenclature in recent years. Just the techniques might be different, yet the concept is same. Then comes the time series: yesterday you bought a horse, today you bought a cute dog and what would you buy tomorrow ?. It's the basic time series tasks. 
+
+ 1. Amazon - Started in a garage once, to suggest similar products which we likely to hit enter and buy it, today its market value around 1.97 trillion us dollers,,
  2. Netflix (~322 billion USD) - where we indulge into our favorite movies without even glancing at the clock, and
  3. Spotify (~ 74 Billion USD) - Where we listen similar songs and music which we preferably fell in love with, is all about recommendion engines. 
 
@@ -40,7 +42,7 @@ Different Methods to identify User similarities:
 1. Correlations,
 2. Cosine Similarities,
 3. Jaccard Similarities,
-4. Euclidean Distance,
+4. Euclidean Distance, (Does it measures the distance between Vienna to chennai ?, maybe yes. In 3 dimensions)
 5. Hamming Distance, 
 6. Manhatten Distance,
 7. Bhattachryya Distance,
