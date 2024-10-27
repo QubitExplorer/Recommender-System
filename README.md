@@ -41,7 +41,7 @@ Different Methods to identify User similarities:
 1. Correlations,
 2. Cosine Similarities,
 3. Jaccard Similarities,
-4. Euclidean Distance, (Does it measures the distance between Vienna to chennai ?, maybe yes. In 3 dimensions)
+4. Euclidean Distance, (measuring straight line distances, even distance between Vienna to Dublin. In 3 dimensions!)
 5. Hamming Distance, 
 6. Manhatten Distance,
 7. Bhattachryya Distance,
