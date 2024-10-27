@@ -31,7 +31,7 @@ Basically we can use some build in data analysis statistical functions like corr
 
 ![image](https://github.com/user-attachments/assets/937a996b-487a-436b-8329-4b950d9cfad1)
 
-Tt's a very basic example and there are some drawbacks associated with it, like sparse (zero) values, curse of dimensionality etc.,
+It's a very basic example and there are some drawbacks associated with it, like sparse (zero) values, curse of dimensionality etc.,
 
 In big data, excel cannot handle such billion's of data volumn, so we can calculate the **cosine similarities** between one user with respect to other 100 Million friendly users who agreed to share their music watch history and we will get a combinations of roughly 1 quatrillion cosine score values which you can store it in on-prem server (and in recent years all most all major companies migrated it to cloud/hybrid models).  You can slice and dice the data (ETL) in cloud, apply different statistical concepts, whatever makes sense to you, get the best, quick yet practical results. This is how companies like Netflix and Amazon recommends thousands of products daily. 
 
