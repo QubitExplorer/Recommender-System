@@ -4,7 +4,7 @@
 
 Instead of throwing some random mathamatical derivations for Recommendation engine, I decided to write below story. When I started writing this page, I knew nothing about recommendation engine.  So, let's guess: what it could be, how it might work, why we need this recommendation engine in our day to day life and how we can leverage it further. 
 
-To understand this, maybe let's go back to the golden year 1750's approx. Let's assume you are in your mid-twenties and it's your childhood dream to buy a **new horse**, since we don't have Ferrari, BMW at that time. You kept dreamt about it several days, weeks and finally started saving penny amount of coins everyday over the period of last several months. Finally you reached your target, made it, and have enough big coins to buy a new horse, but you **do not know which one to buy** and **where to buy it**. So, now what would we do ?. Well, Lets ask for a **recommendations or suggestions** from the one who have experience **(i.e. past data)**, whom you trust the most **(like-minded or who shares similar interest)** and collect list of recommendations from each one of them. 
+To understand this, maybe let's go back to the golden year 1750's approx. Let's assume you are in your mid-twenties and it's your childhood dream to buy a **new horse**, since we don't have Ferrari, Tesla at that time. You kept dreamt about it several days, weeks and finally started saving penny amount of coins everyday over the period of last several months. Finally you reached your target, made it, and have enough big coins to buy a new horse, but you **do not know which one to buy** and **where to buy it**. So, now what would we do ?. Well, Lets ask for a **recommendations or suggestions** from the one who have experience **(i.e. past data)**, and whom you trust the most **(like-minded indivituals who shares similar interest)** and collect list of recommendations from each one of them. 
 
 
 ----------------------------------------------------------------------------------------------------------------
@@ -20,9 +20,9 @@ Friend C: Likes Cycling (assuming there would be some bicycles on those days) an
 
 ----------------------------------------------------------------------------------------------------------------
 
-Clearly,  **Friend A** has a similar interest like you and you would **assign more weightage** to him, right ?.
+Clearly,  **Friend A** has similar interest more similar to you and you would **assign more weightage ** to him, right ?. In neural networks it called "weights". 
 
-Now, its just the case of 3 friends with 8 different interest. What would be the case if you have 100, 000, 000 (100 million) friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite "Ramanujan" (The Man who Infinity) to perform this set of operations, or we need a super computers to perform huge operations. Basically we can calculate the **cosine similarities** between one user with respect to other 100 Million friendly users who agreed to share their music history data and will get a combinations of roughly 1 quatrillion cosine scores values.  You can slice and dice the data (ETL), apply different statistical concepts, whatever it makes sense to you, gets the best and quick results. This is how the big companies like Netflix, Amazon perform mathematical operations and recommends thousands of the similar products in our day to day. 
+Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if you have 100, 000, 000 (100 million) friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite "Srinivasa Ramanujan" (The Man who knew Infinity) to perform this set of operations, or we need a super computers to perform huge operations. Basically we can calculate the **cosine similarities** between one user with respect to other 100 Million friendly users who agreed to share their music history data and will get a combinations of roughly 1 quatrillion cosine scores values.  You can slice and dice the data (ETL), apply different statistical concepts, whatever it makes sense to you, gets the best and quick results. This is how the big companies like Netflix, Amazon perform mathematical operations and recommends thousands of the similar products in our day to day. 
 
 Almost, Every one is pretty new in this AI/ML era, its just 10 years old, it keep evolving over the period of time. Maybe some one has named it as "Recommender Engine" couple of years before and thats how the millions of data and computers scientists were following the similar nomenclature in recent years. Just the techniques might be different, but the concept is same. 
 
@@ -50,7 +50,8 @@ Different Methods to identify User similarities:
 11. Sequence-Based Similarity,
 12. Deep Collaborative Filtering with Embeddings (via Neural Networks),
 13. Transformer Models for Sequential Recommendations (e.g., BERT4Rec), and 
-14. Other Hybrid Approcahes. 
+14. Other Hybrid Approcahes.
+15. "Write_Your_Name" distance and come up with your own solution if you time for this. 
 
 Here, we will be leveraging RecBole libraries to explore various models and to develop more customizable one. Ref: https://recbole.io/
 
@@ -58,6 +59,6 @@ List of Different Varieties of Datasets:
 
 ![image](https://github.com/user-attachments/assets/e842adf0-6eaa-48b7-9ffa-68312db0788e)
 
-Comparision or Performance Results For All Approaches:
+Comparision and Performance Results For All Approaches:
 
 Yet to be added.
