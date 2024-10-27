@@ -60,5 +60,6 @@ List of Different Varieties of Datasets:
 
 ![image](https://github.com/user-attachments/assets/e842adf0-6eaa-48b7-9ffa-68312db0788e)
 
-Comparision or Performance Results:
+Comparision or Performance Results For All Approaches:
+
 To be added.
