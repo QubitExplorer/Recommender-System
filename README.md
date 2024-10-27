@@ -32,13 +32,11 @@ Almost, Every one is pretty new in this AI/ML era, its just 10 years old, it kee
 
 We could also calculate **correlations** and get the similar products which is similar to horse and can suggest other users as well. 
 
-Here, we will be further exploring different varieties of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM, over several iterations.
-
-Similary, In modern days there are varieties of recommendation systems available and below are the two primary types:
+Here, we will be further exploring different varieties of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM, over several iterations. Similary, In modern days there are varieties of recommendation systems available and below are the two major types:
 1. Collaborative Filtering (User to User), and
 2. Content Based Filtering (Product to Product).
 
-Different Ways to identify User similarities:
+Different Methods to identify User similarities:
 1. Correlations,
 2. Cosine Similarities,
 3. Jaccard Similarities,
@@ -62,4 +60,4 @@ List of Different Varieties of Datasets:
 
 Comparision or Performance Results For All Approaches:
 
-To be added.
+Yet to be added.
