@@ -23,9 +23,11 @@ Clearly,  **Friend A** has similar interest more similar to you and you would **
 
 Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if you have (100 million) 100, 000, 000 friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite math experts to perform this set of calculations, or else we need an advanced computers to perform this huge operations. 
 
-Luckily, the invention of Transitors in 1940's provided the path to highly advanced office tools called "MS Excel" by which you can perform approx 1 million data points i.e 10, 48,576 rows to be precious, just press ctrl + down, you will reach there (Technically, csv file can handle more than that, but still it has limitations for modern recommender systems). Basically we can use some build in data analysis statistical functions like correlations, and cosine similarities to calculate and to identify similar users (below is the basic example).
+Luckily, the invention of Transitors in 1940's provided the path to highly advanced office tools called "MS Excel" by which you can perform approx 1 million data points i.e 10, 48,576 rows to be precious, just press ctrl + down, you will reach there (Technically, csv file can handle more than that, but still it has limitations for modern recommender systems). 
 
-![image](https://github.com/user-attachments/assets/8db1f3d7-5bb5-4dff-b74a-3f421ae5d2aa)
+Basically we can use some build in data analysis statistical functions like correlations, and cosine similarities to calculate and to identify similar users (below is the basic example).
+
+![image](https://github.com/user-attachments/assets/83b06d7f-e39d-4d28-9011-f0de0d40cf1d)
 
 ![image](https://github.com/user-attachments/assets/937a996b-487a-436b-8329-4b950d9cfad1)
 
