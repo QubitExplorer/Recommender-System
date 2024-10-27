@@ -45,14 +45,13 @@ Different Methods to identify User similarities:
 5. Hamming Distance, 
 6. Manhatten Distance,
 7. Bhattachryya Distance,
-8. Neural Network Embeddings (Collaborative Filtering), and
+8. Neural Network Embeddings (Collaborative Filtering),
 9. Kullback Leibler divergence,
 10. Embeddings and Latent Features,
 11. Sequence-Based Similarity,
 12. Deep Collaborative Filtering with Embeddings (via Neural Networks),
 13. Transformer Models for Sequential Recommendations (e.g., BERT4Rec), and 
 14. Other Hybrid Approcahes.
-15. "Write_Your_Name" distance. (but come up with your own solution if you have time for this)
 
 Here, we will be leveraging RecBole libraries to explore various models and to develop more customizable one. Ref: https://recbole.io/
 
