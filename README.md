@@ -1,6 +1,6 @@
 # Recommender Systems:
 
-Here, we will be further exploring different varieties of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM, over several iterations if have enough time and motivation. Similarly, In modern days there are varieties of recommender systems available and below are the two major types:
+Here, we will be further exploring different varieties of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM. Similarly, In modern days there are varieties of recommender systems available and below are the two major types:
 1. Collaborative Filtering (User to User), and
 2. Content Based Filtering (Product to Product).
 
