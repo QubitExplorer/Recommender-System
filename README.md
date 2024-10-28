@@ -1,9 +1,9 @@
 # Recommender Systems: Let me tell you a story!
 
 
-Instead of throwing around random mathematical derivations for Recommendation Engine or recommender systems, I finally decided to write stories. When I started writing this page, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it further ?
+Instead of throwing around random mathematical derivations for Recommendation Engine or recommender systems, I finally decided to write stories. When I started writing this page, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it further.
 
-To understand this, lets imagine we are in the year 1750's. You're in your mid-twenties, it's been your childhood dream to buy a **new horse**, since there's no Ferrari and Tesla at the time. You have dreamed about it several days, weeks and even months, and finally after saving few coins everyday, you have saved enough. Now, have enough big coins to buy a new horse. But you **do not know which one to buy** and **where to buy it**. So, what would you do now ?. Well, you did probably ask for a **recommendations or suggestions** from people with experience **(i.e. past data)**, and **who shares similar interest** and you like to gather advise from each one of them. 
+To understand this, lets imagine we are in the year 1750's. You're in your mid-twenties, it's been your childhood dream to buy a **new horse**, since there's no Ferrari and Tesla at the time. You have dreamed about it several days, weeks and even months, and finally after saving few coins everyday, you have saved enough. Now, you have enough big coins to buy a new horse. But you **do not know which one to buy** and **where to buy it**. So, what would you do now ?. Well, you did probably ask for a **recommendations or suggestions** from people with experience **(i.e. past data)**, and **who shares similar interest** and you like to gather advise from each one of them. 
 
 ----------------------------------------------------------------------------------------------------------------
 Lets say, You have three best friends, and all of them were having equal knowledge but totally different varities of interests:
