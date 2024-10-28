@@ -21,7 +21,7 @@ Different Methods to identify User similarities:
 14. Other Hybrid Approcahes.
 
 Here are the few examples of companies using recommendation engines:
- 1. Amazon - Started in a garage once, to suggest similar products which we likely to hit enter and buy it, today its market value around 1.97 trillion us dollers,
+ 1. Amazon - To suggest similar products which we likely to hit enter and buy it, today its market value around 1.97 trillion us dollers,
  2. Netflix (~322 billion USD) - where we indulge into our favorite movies without even glancing at the clock, and
  3. Spotify (~ 74 Billion USD) - Where we listen similar songs and music which we preferably fell in love with. 
 
