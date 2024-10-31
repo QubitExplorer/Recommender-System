@@ -69,6 +69,4 @@ List of Different Varieties of Datasets:
 
 Comparision and Performance Results For All Approaches:
 
-Model development and testing is in progress, to be added further.
-
-Thanks for reading!
+Model development and testing work is in progress, to be added further. Thanks for reading!
