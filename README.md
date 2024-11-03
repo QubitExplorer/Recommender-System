@@ -70,4 +70,4 @@ List of Different Varieties of Datasets:
 
 Comparision and Performance Results For All Approaches:
 
-Minimum Viable Product (MVP): Model development and testing are currently in progress, to be added further. Thanks for reading!
+Minimum Viable Product - MVP : Model development and testing are currently in progress, to be added further. Thanks for reading!
