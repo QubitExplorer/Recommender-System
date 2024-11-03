@@ -58,8 +58,9 @@ Different Methods to identify User similarities:
 10. Embeddings and Latent Features,
 11. Sequence-Based Similarity,
 12. Deep Collaborative Filtering with Embeddings (via Neural Networks),
-13. Transformer Models for Sequential Recommendations (e.g., BERT4Rec), and 
-14. Other Hybrid Approcahes.
+13. Transformer Models for Sequential Recommendations (e.g., BERT4Rec), and
+14. In life science application (some techniques used for DNA Sequencing to find the similarities, which clould also be leveraged for RC)
+15. Other Hybrid Approches.
 
 Here, we will be leveraging RecBole libraries to explore various models and to develop more customizable one. Ref: https://recbole.io/
 
@@ -69,4 +70,4 @@ List of Different Varieties of Datasets:
 
 Comparision and Performance Results For All Approaches:
 
-Model development and testing work is in progress, to be added further. Thanks for reading!
+Minimum Viable Product (MVP): Model development and testing work is in progress, to be added further. Thanks for reading! Happy Diwali!
