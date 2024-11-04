@@ -48,7 +48,7 @@ The field of AI and ML is still young - maybe 20 years old - keeps evolving.  So
 
 **Business Use Case:** 
 
-Here are the few examples of companies using recommendation engines:
+Here are the few examples of companies using recommendation engines to drive digital transformation:
  1. Amazon - To suggest similar products which we likely to hit enter and buy it, today its market value around 1.97 trillion us dollers,
  2. Netflix - We indulge into our favorite movies without even glancing at the clock, valued around 322 billion USD,
  3. Spotify - Where we listen similar songs and music which we preferably like it, valued appox 74 billion USD,
