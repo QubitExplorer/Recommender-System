@@ -74,7 +74,7 @@ Comparision and Performance Results For All Approaches:
 
 ![image](https://github.com/user-attachments/assets/d2bf1736-6617-4afc-9dbe-88134e8e40fe)
 
-Works like a Minimum Viable Product - MVP:
+Functions like a Minimum Viable Product (MVP):
 
 ![image](https://github.com/user-attachments/assets/d157ae60-54c2-41e8-9bf3-e79e1250bc1b)
 
