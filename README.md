@@ -70,4 +70,13 @@ List of Different Varieties of Datasets:
 
 Comparision and Performance Results For All Approaches:
 
-Minimum Viable Product - MVP : Model development and testing are currently in progress, to be added further. Thanks for reading!
+Minimum Viable Product - MVP : Model development and testing are currently in progress, to be added further. 
+
+Evaluation Metrics: Recall, Precision, ndcg. 
+
+References:
+1. https://recbole.io/docs/user_guide/model/general/bpr.html
+2. https://recbole.io/
+3. https://grouplens.org/datasets/movielens/100k/
+
+Thanks for reading!
