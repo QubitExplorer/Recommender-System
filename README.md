@@ -46,8 +46,8 @@ The field of AI and ML is still young - maybe 20 years old - keeps evolving.  So
 
 **Business Use Case:** Here are the few examples of companies using recommendation engines:
  1. Amazon - To suggest similar products which we likely to hit enter and buy it, today its market value around 1.97 trillion us dollers,
- 2. Netflix - We indulge into our favorite movies without even glancing at the clock, valued around 322 billion USD, and
- 3. Spotify - Where we listen similar songs and music which we preferably like it, valued appox 74 billion USD.
+ 2. Netflix - We indulge into our favorite movies without even glancing at the clock, valued around 322 billion USD,
+ 3. Spotify - Where we listen similar songs and music which we preferably like it, valued appox 74 billion USD,
  4. Google Maps - Helps us to reach our favorite destination on time, without rushing. This is important for our below use cases.
 
 Here, we will be further exploring different varieties of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM. Similarly, In modern days there are varieties of recommender systems available and below are the two major types:
