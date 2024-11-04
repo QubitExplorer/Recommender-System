@@ -78,6 +78,21 @@ Functions like a Minimum Viable Product (MVP):
 
 ![image](https://github.com/user-attachments/assets/d157ae60-54c2-41e8-9bf3-e79e1250bc1b)
 
+**Agile Method:** Or, we can also do in an Agile Way - Summary for the Compiler Process:
+
+Lexical Analysis: Backlog is broken down into workable tasks.  
+
+Syntax Analysis: Ensures tasks fit the plan.
+
+Semantic Analysis: Verifies that the output delivers meaningful value. 
+
+Optimization: Continuous improvement and refinement of the product. 
+
+Code Generation: Delivers a working increment of software. 
+
+
+**Recbole - Major Classifications:**
+
 General Recommendation (GR): The interaction of users and items is the only data that can be used by model. Usually, the models are trained on implicit feedback data and evaluated under the task of top-n recommendation. All the collaborative filter (CF) based models are classified in this class.
 
 Content-aware Recommendation: This can be seen as an extension of click-through rate prediction. All the model in this class can be used for CTR prediction. Usually, the dataset is explicit and contains label field. Other feature fields are also support for these models. And evaluation is always conducted in the way of binary classification.
