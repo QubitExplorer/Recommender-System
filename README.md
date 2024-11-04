@@ -42,9 +42,13 @@ It's a very basic example and there are some drawbacks associated with it, like 
 
 In big data world, excel cannot handle such billion's of data volumn, so we can calculate the **cosine similarities** between one user with respect to other 100 Million friendly users who agreed to share their music watch history and we will get a combinations of roughly 1 quatrillion cosine score values which you can store it in on-prem database server (and in recent years all most all major companies migrated it to cloud/hybrid models).  We can slice and dice the data (ETL - Extract Transform and Load) in cloud, apply different statistical concepts, whatever makes sense to us, get the best, quick yet practical results. This is how companies like Netflix and Amazon recommends thousands of products daily. 
 
-The field of AI and ML is still young - maybe 20 years old - keeps evolving.  Somewhere along the way, the concept became as "Recommender Systems". Millions of data scientists use this nomenclature nowadays. Maybe the recent techniques might be different, yet the core concept and unique benefit (value proposition) is still the same, **recommend the best product/service to the user**. Then comes the time series problem: yesterday we bought a horse, today we might buy a cute dog and how about tomorrow ?. It's the basic time series tasks. 
+**Value Proposition:**
 
-**Business Use Case:** Here are the few examples of companies using recommendation engines:
+The field of AI and ML is still young - maybe 20 years old - keeps evolving.  Somewhere along the way, the concept became as "Recommender Systems". Millions of data scientists use this nomenclature nowadays. Maybe the recent techniques might be different, yet the core concept and unique benefit is still the same, **recommend the best product/service to the user**. Then comes the time series problem: yesterday we bought a horse, today we might buy a cute dog and how about tomorrow ?. It's the basic time series tasks. 
+
+**Business Use Case:** 
+
+Here are the few examples of companies using recommendation engines:
  1. Amazon - To suggest similar products which we likely to hit enter and buy it, today its market value around 1.97 trillion us dollers,
  2. Netflix - We indulge into our favorite movies without even glancing at the clock, valued around 322 billion USD,
  3. Spotify - Where we listen similar songs and music which we preferably like it, valued appox 74 billion USD,
@@ -69,18 +73,18 @@ Different Methods to identify User similarities:
 14. In life science application (some techniques used for DNA Sequencing to find the similarities, which could also be leveraged for RS)
 15. Other Hybrid Approches.
 
-Here, we will be leveraging RecBole libraries to explore various models and to develop more customizable one. Ref: https://recbole.io/
+**Data Sources:** Here, we will be leveraging RecBole libraries to explore various models and to develop more customizable one. 
 
-List of Different Varieties of Datasets:
+List of Different Varieties of Datasets: (Ref: https://recbole.io/)
 
 ![image](https://github.com/user-attachments/assets/e842adf0-6eaa-48b7-9ffa-68312db0788e)
 
-Comparision and Performance Results For All Approaches:
+**Results:** Comparision and Performance Results For All Approaches:
 1st set of results for the simple BPR model with 10 epochs, for movielens datasets: (To be fine tuned further)
 
 ![image](https://github.com/user-attachments/assets/d2bf1736-6617-4afc-9dbe-88134e8e40fe)
 
-Functions like a Minimum Viable Product (MVP):
+**Other Models:** Functions like a Minimum Viable Product (MVP):
 
 ![image](https://github.com/user-attachments/assets/d157ae60-54c2-41e8-9bf3-e79e1250bc1b)
 
@@ -109,7 +113,9 @@ Sequential Recommendation: Similar to time series problem, which we discussed ea
 
 Knowledge-based Recommendation: Knowledge-based recommendation introduces an external knowledge graph to enhance general or sequential recommendation.
 
-**Evaluation Metrics:** We also need to validate the model accuracy and using Recall, Precision, ndcg. 
+**Evaluation Metrics:** We also need to validate the model accuracy and we will be using Recall, Precision, ndcg. 
+
+**Hybrid Methods & Approaches:** To be added further. 
 
 **References:**
 1. https://recbole.io/docs/user_guide/model/general/bpr.html
