@@ -68,7 +68,7 @@ Different Methods to identify User similarities:
 11. Sequence-Based Similarity,
 12. Deep Collaborative Filtering with Embeddings (via Neural Networks),
 13. Transformer Models for Sequential Recommendations (e.g., BERT4Rec), and
-14. In life science application (some techniques used for DNA Sequencing to find the similarities, which clould also be leveraged for RC)
+14. In life science application (some techniques used for DNA Sequencing to find the similarities, which could also be leveraged for RS)
 15. Other Hybrid Approches.
 
 Here, we will be leveraging RecBole libraries to explore various models and to develop more customizable one. Ref: https://recbole.io/
@@ -86,20 +86,22 @@ Functions like a Minimum Viable Product (MVP):
 
 ![image](https://github.com/user-attachments/assets/d157ae60-54c2-41e8-9bf3-e79e1250bc1b)
 
-**Agile Method:** Or, we can also do in an Agile Way - Summary for the Compiler Process:
+**Agile Method:** While during development, We can also implement an Agile Methodologies - Here, is the summary for the Compiler Process:
 
 Lexical Analysis: Model Backlog is broken down into workable tasks.  
 
-Syntax Analysis: Ensures RC tasks fit the plan.
+Syntax Analysis: Ensures Recommender System development tasks fit the plan.
 
 Semantic Analysis: Verifies that the output delivers meaningful value. 
 
-Optimization: Continuous improvement and refinement of the product. 
+Optimization: Continuous improvement and refinement of the product. (E.g. Fine Tuning of the results)
 
-Code Generation: Working increment of Recommendation Engines. 
+Code Generation: Working increment of Recommendation Engines. (E.g. MVP)
 
 
 **Recbole - Major Classifications:**
+
+Earlier, we have classified into two categories, and as per recbole we can classify into 4 major categories. 
 
 General Recommendation (GR): The interaction of users and items is the only data that can be used by model. Usually, the models are trained on implicit feedback data and evaluated under the task of top-n recommendation. All the collaborative filter (CF) based models are classified in this class.
 
@@ -109,9 +111,9 @@ Sequential Recommendation: Similar to time series problem, which we discussed ea
 
 Knowledge-based Recommendation: Knowledge-based recommendation introduces an external knowledge graph to enhance general or sequential recommendation.
 
-Evaluation Metrics: Recall, Precision, ndcg. 
+**Evaluation Metrics:** We also need to validate the model accuracy and will using Recall, Precision, ndcg. 
 
-References:
+**References:**
 1. https://recbole.io/docs/user_guide/model/general/bpr.html
 2. https://recbole.io/
 3. https://grouplens.org/datasets/movielens/100k/
