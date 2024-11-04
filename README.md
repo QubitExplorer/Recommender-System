@@ -119,7 +119,14 @@ Knowledge-based Recommendation: Knowledge-based recommendation introduces an ext
 
 **Hybrid Methods & Approaches:** To be added further. 
 
+**Few Hugging Face models to be tested:**
+1. Transformers4Rec by NVIDIA: Integrates with Hugging Face Transformers, enabling the application of transformer architectures to sequential and session-based recommendation tasks. 
+2. RecGPT: RecGPT is a domain-adapted large language model specifically trained for text-based recommendation tasks.
+
+
 **References:**
 1. https://recbole.io/docs/user_guide/model/general/bpr.html
 2. https://recbole.io/
 3. https://grouplens.org/datasets/movielens/100k/
+4. https://huggingface.co/docs/hub/en/models-the-hub
+   
