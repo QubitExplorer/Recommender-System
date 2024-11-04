@@ -78,6 +78,14 @@ Functions like a Minimum Viable Product (MVP):
 
 ![image](https://github.com/user-attachments/assets/d157ae60-54c2-41e8-9bf3-e79e1250bc1b)
 
+General Recommendation (GR): The interaction of users and items(.inter file) is the only data that can be used by model. Usually, the models are trained on implicit feedback data and evaluated under the task of top-n recommendation. All the collaborative filter(CF) based models are classified in this class.
+
+Content-aware Recommendation: This can be seen as an extension of click-through rate prediction. All the model in this class can be used for CTR prediction. Usually, the dataset is explicit and contains label field. Other feature fields are also support for these models. And evaluation is always conducted in the way of binary classification.
+
+Sequential Recommendation: The task of SR (next-item recommendation) is the same as GR which sorts a list of items according to preference. While the history interactions are organized in sequences and the model tends to characterize the sequential data. The models of session-based recommendation are also included in this class.
+
+Knowledge-based Recommendation: Knowledge-based recommendation introduces an external knowledge graph to enhance general or sequential recommendation.
+
 Evaluation Metrics: Recall, Precision, ndcg. 
 
 References:
