@@ -69,8 +69,13 @@ List of Different Varieties of Datasets:
 ![image](https://github.com/user-attachments/assets/e842adf0-6eaa-48b7-9ffa-68312db0788e)
 
 Comparision and Performance Results For All Approaches:
+1st set of results for the simple BPR model with 10 epochs, for movielens datasets: (To be fine tuned further)
 
-Minimum Viable Product - MVP : Model development and testing are currently in progress, to be added further. 
+![image](https://github.com/user-attachments/assets/d2bf1736-6617-4afc-9dbe-88134e8e40fe)
+
+Works like a Minimum Viable Product - MVP:
+
+![image](https://github.com/user-attachments/assets/923b12d3-4052-409e-9a63-a4ee51617732)
 
 Evaluation Metrics: Recall, Precision, ndcg. 
 
