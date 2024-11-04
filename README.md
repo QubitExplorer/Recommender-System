@@ -7,7 +7,7 @@ Recommender Systems have become an essential part of our daily digital experienc
 2. For Industry and Non-Scientific Audiences: An informal version tailored for subject matter experts, focusing on practical applications without deep technical explanations for ease understanding.
 
 
-Here's my favorite informal version, designed specifically for subject matter experts and beginners who are just getting started with recommender systems:
+Here's my favorite informal version for the business world, designed specifically for subject matter experts and beginners like me who are just getting started with recommender systems:
 
 Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write this story. When I started writing this page, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use cases.
 
@@ -44,7 +44,7 @@ In big data world, excel cannot handle such billion's of data volumn, so we can 
 
 The field of AI and ML is still young - maybe 20 years old - keeps evolving.  Somewhere along the way, the concept became as "Recommender Systems". Millions of data scientists use this nomenclature nowadays. Maybe the recent techniques might be different, yet the core concept and unique benefit (value proposition) is still the same, **recommend the best product/service to the user**. Then comes the time series problem: yesterday we bought a horse, today we might buy a cute dog and how about tomorrow ?. It's the basic time series tasks. 
 
-Here are the few examples of companies using recommendation engines:
+**Business Use Case:** Here are the few examples of companies using recommendation engines:
  1. Amazon - To suggest similar products which we likely to hit enter and buy it, today its market value around 1.97 trillion us dollers,
  2. Netflix - We indulge into our favorite movies without even glancing at the clock, valued around 322 billion USD, and
  3. Spotify - Where we listen similar songs and music which we preferably like it, valued appox 74 billion USD.
@@ -59,9 +59,7 @@ Different Methods to identify User similarities:
 2. Cosine Similarities,
 3. Jaccard Similarities,
 4. Euclidean Distance, (measuring straight line distances, even distance between Vienna to Dublin or Dublin to Chennai. In 3 dimensions!)
-5. Hamming Distance, 
-6. Manhatten Distance,
-7. Bhattachryya Distance,
+5. Hamming Distance, 6. Manhatten Distance, 7. Bhattachryya Distance,
 8. Neural Network Embeddings (Collaborative Filtering),
 9. Kullback Leibler divergence,
 10. Embeddings and Latent Features,
@@ -94,7 +92,7 @@ Syntax Analysis: Ensures Recommender System development tasks fit the plan.
 
 Semantic Analysis: Verifies that the output delivers meaningful value. 
 
-Optimization: Continuous improvement and refinement of the product. (E.g. Fine Tuning of the results)
+Optimization: Continuous improvement and refinement of the product. (E.g. Fine tune the results further)
 
 Code Generation: Working increment of Recommendation Engines. (E.g. MVP)
 
@@ -111,7 +109,7 @@ Sequential Recommendation: Similar to time series problem, which we discussed ea
 
 Knowledge-based Recommendation: Knowledge-based recommendation introduces an external knowledge graph to enhance general or sequential recommendation.
 
-**Evaluation Metrics:** We also need to validate the model accuracy and will using Recall, Precision, ndcg. 
+**Evaluation Metrics:** We also need to validate the model accuracy and using Recall, Precision, ndcg. 
 
 **References:**
 1. https://recbole.io/docs/user_guide/model/general/bpr.html
