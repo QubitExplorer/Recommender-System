@@ -80,15 +80,15 @@ Functions like a Minimum Viable Product (MVP):
 
 **Agile Method:** Or, we can also do in an Agile Way - Summary for the Compiler Process:
 
-Lexical Analysis: Backlog is broken down into workable tasks.  
+Lexical Analysis: Model Backlog is broken down into workable tasks.  
 
-Syntax Analysis: Ensures tasks fit the plan.
+Syntax Analysis: Ensures RC tasks fit the plan.
 
 Semantic Analysis: Verifies that the output delivers meaningful value. 
 
 Optimization: Continuous improvement and refinement of the product. 
 
-Code Generation: Delivers a working increment of software. 
+Code Generation: Working increment of Recommendation Engines. 
 
 
 **Recbole - Major Classifications:**
