@@ -1,7 +1,14 @@
 # Recommender Systems: Let me tell you a story!
 
+Recommender Systems have become an essential part of our daily digital experiences. I will be preparing two distinct versions on this topic:
 
-Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write story. When I started writing this page, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use cases.
+1. For the Scientific Community: A formal PDF version, complete with citations and detailed technical explanations of the underlying concepts.
+
+2. For Industry and Non-Scientific Audiences: An informal version tailored for subject matter experts, focusing on practical applications without deep technical explanations for ease understanding.
+
+
+Here is my favorite informal version:
+Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write this story. When I started writing this page, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use cases.
 
 To understand this, lets imagine we are in the year 1750's. You're in your mid-twenties, it's been your dream to buy a **new horse**, since there's no Ferrari and Tesla at the time. You have dreamed about it several days, weeks and even months, and finally after saving few coins everyday, you have saved enough. Now, you have enough big coins to buy a new horse. But you **do not know which one to buy** and **where to buy it**. So, what would you do now ?. Well, you did probably ask for a **recommendations or suggestions** from people with experience **(i.e. past data)**, and **who shares similar interest** and you like to gather advise from each one of them. 
 
