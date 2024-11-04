@@ -82,7 +82,7 @@ General Recommendation (GR): The interaction of users and items is the only data
 
 Content-aware Recommendation: This can be seen as an extension of click-through rate prediction. All the model in this class can be used for CTR prediction. Usually, the dataset is explicit and contains label field. Other feature fields are also support for these models. And evaluation is always conducted in the way of binary classification.
 
-Sequential Recommendation: Similar to time series problem, which we discussed earlier. The task of SR (next-item recommendation) is the same as GR which sorts a list of items according to preference. While the history interactions are organized in sequences and the model tends to characterize the sequential data. The models of session-based recommendation are also included in this class.
+Sequential Recommendation: Similar to time series problem, which we discussed earlier. The task of SR (next-item recommendation) is the same as GR which sorts a list of items according to preference. While the history interactions are organized in sequences and the model tends to characterize the sequential data. The models of session-based recommendation are also included in this category.
 
 Knowledge-based Recommendation: Knowledge-based recommendation introduces an external knowledge graph to enhance general or sequential recommendation.
 
