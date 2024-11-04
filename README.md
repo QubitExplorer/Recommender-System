@@ -75,7 +75,7 @@ Comparision and Performance Results For All Approaches:
 
 Works like a Minimum Viable Product - MVP:
 
-![image](https://github.com/user-attachments/assets/923b12d3-4052-409e-9a63-a4ee51617732)
+![image](https://github.com/user-attachments/assets/45bd3e7e-d3b2-4872-81d2-7a36d46f7bb6)
 
 Evaluation Metrics: Recall, Precision, ndcg. 
 
