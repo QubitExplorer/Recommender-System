@@ -54,7 +54,7 @@ Here are the few examples of companies using recommendation engines to drive dig
  3. Spotify - Where we listen similar songs and music which we preferably like it, valued appox 74 billion USD,
  4. Google Maps - Helps us to reach our favorite destination on time, without rushing. This is important for our below use cases.
 
-As per IBM, the market scope for recommender system is expected to be approx 18 billion by 2030, in 2024 its approx 6 billion. (Reference link below)
+As per IBM, the market scope for recommender system is expected to be approx 19 billion by 2030, in 2024 its approx 6 billion. (Reference link below)
 
 Here, we will be further exploring different varieties of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM. Similarly, In modern days there are varieties of recommender systems available and below are the two major types:
 1. Collaborative Filtering (User to User), and
