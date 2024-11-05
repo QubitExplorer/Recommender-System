@@ -86,7 +86,7 @@ List of Different Varieties of Datasets: (Ref: https://recbole.io/)
 
 ![image](https://github.com/user-attachments/assets/d2bf1736-6617-4afc-9dbe-88134e8e40fe)
 
-In simple words, **epochs** tells us how many times we process our complete data until we reach final/optimum goal. For example, instead of collecting feedback on just single day, you decided to ask your three friends consecutively for next 10 days. Every day evening, you collect feedback, go to your bed and next day you have a fresh mind and re-adjust your weights slightly.  Your friends gave you slightly different feedback until day 3, from 4th day onwards they started giving you an consistent and similar feedback until day 10 (epoch), where you finally convinced with your decision making process and to buy perfect product for you.  And, how fast did we adjust our weights to reach that optimum level is called **learning rate** (Usually it's like 0.01, 0.001 etc). 
+In simple words, **epochs** tells us how many times we process our complete data until we reach final/optimum goal. For example, instead of collecting feedback on just single day, we decided to ask our three friends consecutively for next 10 days. Every day evening, we collect feedback, go to bed and next day we have a fresh mind and re-adjust our weights slightly.  Our friends gave us slightly different feedback until day 3, from 4th day onwards they started giving you an consistent and similar feedback until day 10 (epoch), where we finally convinced with our decision making process and to buy perfect product.  And, how fast did we adjust our weights to reach that optimum level is called **learning rate** (Usually it's like 0.01, 0.001 etc). 
 
 **Other Models:** Functions like a Minimum Viable Product (MVP):
 
