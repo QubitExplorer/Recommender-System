@@ -7,7 +7,7 @@ Recommender Systems have become an essential part of our daily digital experienc
 2. An informal version tailored for subject matter experts, focusing on practical applications without deep technical explanations for ease understanding.
 
 
-Here's my informal version for the business world, designed specifically for subject matter experts and beginners like me who are just getting started with recommender systems:
+Here's my informal version for the business world and beginners like me who are just getting started with recommender systems:
 
 Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write this story. When I started writing this page, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use cases.
 
