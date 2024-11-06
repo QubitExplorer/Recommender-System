@@ -111,7 +111,7 @@ General Recommendation (GR): Netflix use case which we discussed above. The inte
 
 Content-aware Recommendation: Amazon use case. Click-through rate prediction, CTR prediction. The dataset is explicit and contains label field. Evaluation conducted by binary classification.
 
-SEO (Search Engine Optimization) and SEM techniques may also be merged. I remember I created Google Adsense account back in 2016 for my HTML webblog,  and adwords can also be refered, to track click throughs and identify user interests. By pressing Ctrl + Shift + I in a webpage, we can sit and build a connection with HTML scripts. 
+SEO (Search Engine Optimization) and SEM techniques may also be merged. Google Adsens and adwords can also be refered, to track click throughs and identify user interests. By pressing Ctrl + Shift + I in a webpage, we can sit and build a connection with HTML scripts. 
 
 Sequential Recommendation: Spotify, similar to time series problem, which we discussed earlier. The task of SR (next-item recommendation) is the same as GR which sorts a list of items according to preference. History interactions are organized in sequences and the model tends to characterize the sequential data. Session-based recommendation are also included here.
 
