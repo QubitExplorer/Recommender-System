@@ -1,6 +1,6 @@
 # Recommender Systems: Let me tell you a story!
 
-Recommender Systems have become an essential part of our daily digital experiences. I will be preparing two distinct versions on this topic:
+Recommender Systems have become an essential part of our daily digital experiences. Here, I will be preparing two distinct versions on this topic:
 
 1. A formal PDF version, complete with citations and detailed technical explanations of the underlying concepts.
 
@@ -123,6 +123,7 @@ Knowledge-based Recommendation: Knowledge-based recommendation introduces an ext
 1. Transformers4Rec by NVIDIA: Integrates with Hugging Face Transformers, enabling the application of transformer architectures to sequential and session-based recommendation tasks. 
 2. RecGPT: RecGPT is a domain-adapted large language model specifically trained for text-based recommendation tasks.
 
+Co-Powered: ChatGPT-4 (100% my ideas, but I called in ChatGPT-4-turbo a bit to give it that 'pro editor' shine. Just a little AI-powered polish for your reading delight only, welcome to 2024!)
 
 **References:**
 1. https://recbole.io/docs/user_guide/model/general/bpr.html
