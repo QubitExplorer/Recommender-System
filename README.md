@@ -129,5 +129,5 @@ Knowledge-based Recommendation: Knowledge-based recommendation introduces an ext
 3. https://grouplens.org/datasets/movielens/100k/
 4. https://huggingface.co/docs/hub/en/models-the-hub
 5. https://www.ibm.com/think/topics/recommendation-engine#:~:text=The%20market%20for%20recommendation%20systems,to%20triple%20in%205%20years.&text=Uncover%20the%20benefits%20of%20AI%20platforms%20that%20enable%20foundation%20model%20customization.
-6. OpenAI
+6. Co-powered by OpenAI
    
