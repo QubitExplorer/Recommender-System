@@ -46,15 +46,13 @@ In big data world, excel cannot handle such billion's of data volumn, so we can 
 
 The field of AI and ML is still young - maybe 20 years old - keeps evolving.  Somewhere along the way, the concept became as "Recommender Systems". Millions of data scientists use this nomenclature nowadays. Maybe the recent techniques might be different, yet the core concept and unique benefit is still the same, **recommend the best product/service to the user**. Then comes the time series problem: yesterday we bought a horse, today we might buy a cute dog and how about tomorrow ?. It's the basic time series tasks. 
 
-**Business Use Case:** 
-
 Here are the few examples of companies using recommendation engines to drive digital transformation:
  1. Amazon - To suggest similar products which we likely to hit enter and buy it, today its market value around 1.97 trillion us dollers,
  2. Netflix - We indulge into our favorite movies without even glancing at the clock, valued around 322 billion USD,
  3. Spotify - Where we listen similar songs and music which we preferably like it, valued appox 74 billion USD,
  4. Google Maps - Helps us to reach our favorite destination on time, without rushing. This is important for our below use cases.
 
-As per IBM, the market scope for recommender system is expected to be approx 19 billion by 2030, in 2024 its approx 6 billion. (Reference link below)
+As per IBM, the market scope for recommender system is expected to be approx 19 billion by 2030, currently in 2024 valued approx 6 billion us dollers. 
 
 Here, we will be further exploring different varieties of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM. Similarly, In modern days there are varieties of recommender systems available and below are the two major types:
 1. Collaborative Filtering (User to User), and
@@ -71,8 +69,8 @@ Different Methods to identify User similarities:
 10. Embeddings and Latent Features,
 11. Sequence-Based Similarity,
 12. Deep Collaborative Filtering with Embeddings (via Neural Networks),
-13. Transformer Models for Sequential Recommendations (e.g., BERT4Rec), and
-14. In life science application (some techniques used for DNA Sequencing to find the similarities, which could also be leveraged for RS)
+13. Transformer Models for Sequential Recommendations (e.g. BERT4Rec), 
+14. In life science application (some techniques used for DNA Sequencing to find the similarities, which could also be leveraged for RS), and
 15. Other Hybrid Approches.
 
 **Data Sources:** Here, we will be leveraging RecBole libraries to explore various models and to develop more customizable one. 
