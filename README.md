@@ -40,7 +40,7 @@ Basically we can use some build in data analysis statistical functions like corr
 
 It's a very basic example and there are some drawbacks associated with it, like sparse (zero) values, curse of dimensionality etc.,
 
-In big data world, excel cannot handle such billion's of data volumn, so we can calculate the **cosine similarities** between one user with respect to other 100 Million friendly users who agreed to share their music watch history and we will get a combinations of roughly 1 quatrillion cosine score values which you can store it in on-prem database server (and in recent years all most all major companies migrated it to cloud/hybrid models).  We can slice and dice the data (ETL - Extract Transform and Load) in cloud, apply different statistical concepts (Enable "Data Analysis" add-in toolpak in our Excel), afterwards get the best and quicker combinations of results. This is how companies like Netflix and Amazon recommends thousands of products daily. 
+In big data world, excel cannot handle such billion's of data volumn, so we can calculate the **cosine similarities** between one user with respect to other 100 Million friendly users who agreed to share their music watch history and we will get a combinations of roughly 1 quatrillion cosine score values which you can store it in on-prem database server (and in recent years all most all major companies migrated it to cloud/hybrid models).  We can slice and dice the data (ETL - Extract Transform and Load) in cloud, apply different statistical concepts (lets enable "Data Analysis" add-in toolpak), afterwards get the best and quicker combinations of results. This is how companies like Netflix and Amazon recommends thousands of products daily. 
 
 Value Proposition:
 The field of AI and ML is still young - maybe 20 years old - keeps evolving.  Somewhere along the way, the concept became as "Recommender Systems". Millions of data scientists use this nomenclature nowadays. Maybe the recent techniques might be different, yet the core concept and unique benefit is still the same, **recommend the best product/service to the user**. Then comes the time series problem: yesterday we bought a horse, today we might buy a cute dog and how about tomorrow ?. It's the basic time series tasks. 
@@ -123,12 +123,11 @@ Knowledge-based Recommendation: Knowledge-based recommendation introduces an ext
 1. Transformers4Rec by NVIDIA: Integrates with Hugging Face Transformers, enabling the application of transformer architectures to sequential and session-based recommendation tasks. 
 2. RecGPT: RecGPT is a domain-adapted large language model specifically trained for text-based recommendation tasks.
 
-Co-Powered: ChatGPT-4 (100% my ideas, but I called in ChatGPT-4-turbo a bit to give it that 'pro editor' shine. Just a little AI-powered polish for your reading delight only, welcome to 2024!)
-
 **References:**
 1. https://recbole.io/docs/user_guide/model/general/bpr.html
 2. https://recbole.io/
 3. https://grouplens.org/datasets/movielens/100k/
 4. https://huggingface.co/docs/hub/en/models-the-hub
 5. https://www.ibm.com/think/topics/recommendation-engine#:~:text=The%20market%20for%20recommendation%20systems,to%20triple%20in%205%20years.&text=Uncover%20the%20benefits%20of%20AI%20platforms%20that%20enable%20foundation%20model%20customization.
+6. OpenAI
    
