@@ -107,13 +107,13 @@ Code Generation: Working increment of Recommendation Engines. (E.g. MVP)
 
 Earlier, we have classified into two categories, and as per recbole we can classify into 4 major categories. 
 
-General Recommendation (GR): Netflix use case which we discussed above. The interaction of users and items is the only data that can be used by model. Usually, the models are trained on implicit feedback data and evaluated under the task of top-n recommendation. Collaborative filter (CF) based models are classified here. 
+General Recommendation (GR): Netflix use case which we discussed above. The interaction of users and items is the only data that can be used by model. Trained on implicit feedback data and evaluated using top-n recommendation. Collaborative filter (CF) based models are classified here. 
 
-Content-aware Recommendation: Amazon use case. Click-through rate prediction, CTR prediction. The dataset is explicit and contains label field. Evaluation is always conducted in the way of binary classification.
+Content-aware Recommendation: Amazon use case. Click-through rate prediction, CTR prediction. The dataset is explicit and contains label field. Evaluation conducted by binary classification.
 
-SEO (Search Engine Optimization) and SEM may also be merged. Google Adsense and adwords can also be refered, to track click throughs and identify user interests.  
+SEO (Search Engine Optimization) and SEM techniques may also be merged. I remember I created Google Adsense account back in 2016 for my HTML webblog,  and adwords can also be refered, to track click throughs and identify user interests. By pressing Ctrl + Shift + I in a webpage, we can sit and build a relation with HTML directly, like we build a relationship with data earlier. 
 
-Sequential Recommendation: Spotify, similar to time series problem, which we discussed earlier. The task of SR (next-item recommendation) is the same as GR which sorts a list of items according to preference. While the history interactions are organized in sequences and the model tends to characterize the sequential data. Session-based recommendation are also included here.
+Sequential Recommendation: Spotify, similar to time series problem, which we discussed earlier. The task of SR (next-item recommendation) is the same as GR which sorts a list of items according to preference. History interactions are organized in sequences and the model tends to characterize the sequential data. Session-based recommendation are also included here.
 
 Knowledge-based Recommendation: Knowledge-based recommendation introduces an external knowledge graph to enhance general or sequential recommendation.
 
