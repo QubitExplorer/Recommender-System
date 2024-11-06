@@ -107,21 +107,38 @@ Code Generation: Working increment of Recommendation Engines. (E.g. MVP)
 
 Earlier, we have classified into two categories, and as per recbole we can classify into 4 major categories. 
 
-General Recommendation (GR): Netflix use case which we discussed above. The interaction of users and items is the only data that can be used by model. Usually, the models are trained on implicit feedback data and evaluated under the task of top-n recommendation. All the collaborative filter (CF) based models are classified in this class.
+General Recommendation (GR): Netflix use case which we discussed above. The interaction of users and items is the only data that can be used by model. Usually, the models are trained on implicit feedback data and evaluated under the task of top-n recommendation. Collaborative filter (CF) based models are classified here. 
 
-Content-aware Recommendation: Amazon use case. This can be seen as an extension of click-through rate prediction. All the model in this class can be used for CTR prediction. Usually, the dataset is explicit and contains label field. Other feature fields are also support for these models. And evaluation is always conducted in the way of binary classification.
+Content-aware Recommendation: Amazon use case. Click-through rate prediction, CTR prediction. The dataset is explicit and contains label field. Evaluation is always conducted in the way of binary classification.
 
-Sequential Recommendation: Spotify, similar to time series problem, which we discussed earlier. The task of SR (next-item recommendation) is the same as GR which sorts a list of items according to preference. While the history interactions are organized in sequences and the model tends to characterize the sequential data. The models of session-based recommendation are also included in this category.
+SEO (Search Engine Optimization) and SEM may also be merged. Google Adsense and adwords can also be refered, to track click throughs and identify user interests.  
+
+Sequential Recommendation: Spotify, similar to time series problem, which we discussed earlier. The task of SR (next-item recommendation) is the same as GR which sorts a list of items according to preference. While the history interactions are organized in sequences and the model tends to characterize the sequential data. Session-based recommendation are also included here.
 
 Knowledge-based Recommendation: Knowledge-based recommendation introduces an external knowledge graph to enhance general or sequential recommendation.
+
+Scope of Recommendation Engine In Various Sectors:
+1. Energy Sectors
+2. Healthcare & Medical
+3. Finance/Fintech
+4. Technology/Service sectors
+
+We will think about few examples where we could leaverage it, without any further delay. 
 
 **Evaluation Metrics:** We also need to validate the model accuracy and we will be using Recall, Precision, ndcg. 
 
 **Hybrid Methods & Approaches:** To be added further. 
 
 **Few Hugging Face models to be tested:**
-1. Transformers4Rec by NVIDIA: Integrates with Hugging Face Transformers, enabling the application of transformer architectures to sequential and session-based recommendation tasks. 
-2. RecGPT: RecGPT is a domain-adapted large language model specifically trained for text-based recommendation tasks.
+1. Transformers4Rec by NVIDIA: Integrates with Hugging Face Transformers, enabling the application of transformer architectures to sequential and session-based recommendation tasks.
+                  transformer_config = tfr.TransformerBlock(
+                   d_model=64,  # Embedding dimension
+                   n_head=4,    # Number of attention heads
+                   num_layers=2  # Number of transformer layers)
+
+           Embedding dimension, Attention Heads, Transformer layers - Working examples to be added
+
+3. RecGPT: RecGPT is a domain-adapted large language model specifically trained for text-based recommendation tasks.
 
 **References:**
 1. https://recbole.io/docs/user_guide/model/general/bpr.html
