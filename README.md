@@ -119,9 +119,9 @@ Knowledge-based Recommendation: Knowledge-based recommendation introduces an ext
 
 Scope of Recommendation Engine In Various Sectors:
 1. Energy Sectors
-2. Healthcare & Medical
-3. Finance/Fintech
-4. Technology/Service sectors
+2. Finance/Fintech
+3. Technology/Service sectors
+4. Entertainment and gamification 
 
 We will think about few examples where we could leaverage it, without any further delay. 
 
