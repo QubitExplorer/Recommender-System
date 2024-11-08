@@ -6,7 +6,6 @@ Recommender Systems have become an essential part of our daily digital experienc
 
 2. An informal version tailored for subject matter experts, focusing on practical applications without deep technical explanations for ease understanding.
 
-
 Here's my informal version for the business world and beginners like me who are just getting started with recommender systems:
 
 Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write this story. When I started writing this page, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use cases.
@@ -30,9 +29,9 @@ Clearly,  **Friend A** has similar interest more similar to you and you would **
 
 Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if we have (100 million) 100, 000, 000 friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite math experts to perform this set of calculations, or else we need an advanced computers to perform this huge operations. 
 
-Luckily, the invention of Transitors in 1940's provided the path to highly advanced office tools called "MS Excel" by which we can perform approx 1 million data points i.e 10, 48,576 rows to be precious, just press ctrl + down, you will reach there (Technically, csv file can handle more than that, but still it has limitations for modern recommender systems). 
+Luckily, the invention of Transitors in 1940's provided the path to highly advanced office tools called "MS Excel" by which we can perform approx 1 million data points i.e 10, 48,576 rows to be precious, by pressing ctrl + down, we can reach there (Technically, csv file can handle more than that, but still it has limitations for modern recommender systems). 
 
-Basically we can use some build in data analysis statistical functions like correlations, and cosine similarities to calculate and to identify similar users (below is the basic example).
+Basically we can use some build in data analysis statistical functions like correlations, cosine similarities to calculate and to identify similar users (below is the basic example).
 
 ![image](https://github.com/user-attachments/assets/a102eda4-475a-42f1-a692-e90480215c5e)
 
@@ -107,33 +106,37 @@ Code Generation: Working increment of Recommendation Engines. (E.g. MVP)
 
 Earlier, we have classified into two categories, and as per recbole we can classify into 4 major categories. 
 
-General Recommendation (GR): Netflix use case which we discussed above. The interaction of users and items is the only data that can be used by model. Trained on implicit feedback data and evaluated using top-n recommendation. Collaborative filter (CF) based models are classified here. 
+1. General Recommendation (GR): Netflix use case which we discussed above. The interaction of users and items is the only data that can be used by model. Trained on implicit feedback data and evaluated using top-n recommendation. Collaborative filter (CF) based models are classified here. 
 
-Content-aware Recommendation: Amazon use case. Click-through rate prediction, CTR prediction. The dataset is explicit and contains label field. Evaluation conducted by binary classification.
+2. Content-aware Recommendation: Amazon use case. Click-through rate prediction, CTR prediction. The dataset is explicit and contains label field. Evaluation conducted by binary classification.
 
 SEO (Search Engine Optimization) and SEM techniques may also be merged, along with Google Adsense and adwords, to improve user experience further. 
 
-Sequential Recommendation: Spotify, similar to time series problem, which we discussed earlier. The task of SR (next-item recommendation) is the same as GR which sorts a list of items according to preference. History interactions are organized in sequences and the model tends to characterize the sequential data. Session-based recommendation are also included here.
+3. Sequential Recommendation: Spotify, similar to time series problem, which we discussed earlier. The task of SR (next-item recommendation) is the same as GR which sorts a list of items according to preference. History interactions are organized in sequences and the model tends to characterize the sequential data. Session-based recommendation are also included here.
 
-Knowledge-based Recommendation: Knowledge-based recommendation introduces an external knowledge graph to enhance general or sequential recommendation.
+4. Knowledge-based Recommendation: Knowledge-based recommendation introduces an external knowledge graph to enhance general or sequential recommendation.
 
-Scope of Recommendation Engine In Various Sectors:
-1. Energy Sectors
-2. Finance/Fintech
-3. Technology/Service sectors
-4. Entertainment and gamification 
-
-We will think about few examples where we could leaverage it, without any further delay. 
+Scope For Recommendation Engines In Various Sectors:
+1. Energy Sectors, (Energy Saving Programs, Substations, CO2 Emission, Solar, grid automation, sensor meters, electrical products and HVAC transmission)
+2. Finance & Fintech sectors, (Investments, Equities, Insurance etc.,)
+3. Technology & Service sectors, (ecommerce products)
+4. Entertainment and Gamification, (Custom localization and Immersive Experience)
+5. Agriculture (AI based recommendations for better yield of crops, agricultural products, custom fertilizers, supply, demand and weather/climate suggestions using historical multi omnics data)
+6. Healthcare and Pharmaceutical, and
+7. Aviation and Transportation.
 
 **Evaluation Metrics:** We also need to validate the model accuracy and we will be using Recall, Precision, ndcg. 
 
-**Hybrid Methods & Approaches:** To be added further. 
+**Hybrid Methods & Noval Approaches:** To be added further. 
 
 **Few Hugging Face models to be tested:**
 1. Transformers4Rec by NVIDIA: Integrates with Hugging Face Transformers, enabling the application of transformer architectures to sequential and session-based recommendation tasks.
                   transformer_config = tfr.TransformerBlock(
+   
                    d_model=64,  # Embedding dimension
+   
                    n_head=4,    # Number of attention heads
+   
                    num_layers=2  # Number of transformer layers)
 
            Embedding dimension, Attention Heads, Transformer layers - Working examples to be added
