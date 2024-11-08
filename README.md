@@ -117,11 +117,11 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 4. Knowledge-based Recommendation: Knowledge-based recommendation introduces an external knowledge graph to enhance general or sequential recommendation.
 
 Scope For Recommendation Engines In Various Sectors:
-1. Energy Sectors, (Energy Saving Programs, Substations, CO2 Emission, Solar, grid automation, sensor meters, electrical products and HVAC transmission)
+1. Energy Sectors, (Energy Saving Programs, Substations, CO2 Emission, Solar, Grid Automation, Sensor Meters, Electrical Products and HVAC transmission)
 2. Finance & Fintech sectors, (Investments, Equities, Insurance etc.,)
-3. Technology & Service sectors, (ecommerce products)
-4. Entertainment and Gamification, (Custom localization and Immersive Experience)
-5. Agriculture (AI based recommendations for better yield of crops, agricultural products, custom fertilizers, supply, demand and weather/climate suggestions using historical multi omnics data)
+3. Technology & Service sectors, (Ecommerce Products)
+4. Entertainment and Gamification, (Custom Localization and Immersive Experience)
+5. Agriculture (AI based recommendations for better yield of Crops, Agricultural Products, Custom Fertilizers, Supply, Demand, Weather and Climate Change suggestions using historical data)
 6. Healthcare and Pharmaceutical, and
 7. Aviation and Transportation.
 
