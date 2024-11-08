@@ -4,7 +4,7 @@ Recommender Systems have become an essential part of our daily digital experienc
 
 1. A formal PDF version, complete with citations and detailed technical explanations of the underlying concepts.
 
-2. An informal version tailored for subject matter experts, focusing on practical applications without deep technical explanations for ease understanding.
+2. An informal version designed for subject matter experts, focusing on practical applications without deep technical explanations for ease understanding.
 
 Here's my informal version for the business world and beginners like me who are just getting started with recommender systems:
 
