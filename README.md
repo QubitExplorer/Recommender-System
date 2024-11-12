@@ -8,7 +8,7 @@ Recommender Systems have become an essential part of our daily digital experienc
 
 Here's my informal version for the business world and beginners like me who are just getting started with recommender systems:
 
-Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write this memos ((like Amazon Board of Directors Meeting :), no presendations, only written memo where everyone can sit and read style). When I started writing this page, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use cases.
+Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write this story. When I started writing this page, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use case. 
 
 To understand this, lets imagine we are in the year 1750's. You're in your mid-twenties, it's been your dream to buy a **new horse**, since there's no Ferrari and Tesla at the time. You have dreamed about it several days and even months, and finally after saving few coins everyday, you have saved enough. Now, you have enough big coins to buy a new horse. But you **do not know which one to buy** and **where to buy it**. So, what would you do now ?. Well, you did probably ask for a **recommendations or suggestions** from people with experience **(i.e. past data)**, and **who shares similar interest** and you like to gather advise from each one of them. 
 
