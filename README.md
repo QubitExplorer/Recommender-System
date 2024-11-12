@@ -118,12 +118,13 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 
 **Scope** For Recommendation Engines In Various Sectors:
 1. Energy Sectors, (Energy Saving Programs, Substations, CO2 Emission, Solar, Grid Automation, Sensor Meters, Electrical Products and HVAC transmission)
-2. Banking & Fintech sectors, (Wealth Management, Customized Credit Products, Investment Portfolio's, Equities, Insurance etc.,)
-3. Technology & Service sectors, (Ecommerce Products)
+2. Banking and Fintech sectors, (Wealth Management, Customized Credit Products, Investment Portfolio's, Equities, and Insurance plan recommendations)
+3. Technology and Service sectors, (Ecommerce Products)
 4. Entertainment and Gamification, (Custom Localization and Immersive Experience)
-5. Agriculture (AI-based recommendations for improved crop yield, agricultural products, custom fertilizers, supply and demand forecasting, as well as weather and climate change insights using historical data.)
-6. Healthcare and Pharmaceutical, and
-7. Aviation and Transportation.
+5. Agriculture (AI-based recommendations for improved crop yield, agricultural products, custom fertilizers, supply and demand forecasting, as well as weather and climate change insights using satellite data.)
+6. Healthcare and Pharmaceutical, 
+7. Aviation and Transportation, and 
+8. Other Specialized Sectors. 
 
 **Evaluation Metrics:** We also need to validate the model accuracy and we will be using Recall, Precision, ndcg. 
 
