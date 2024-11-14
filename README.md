@@ -8,9 +8,9 @@ Recommender Systems have become an essential part of our daily digital experienc
 
 Here's my informal version for the business world and beginners like me who are just getting started with recommender systems:
 
-Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write this example. When I started writing this page, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use case. 
+Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write this example. In the beginning, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use case. 
 
-To understand this, lets imagine we're in the olden days. You're in your mid-twenties, it's been your dream to buy a **new horse**, since there's no modern cars at the time. You have thought about it several days, and decided to buy it. But you **do not know which one to buy** and **where to buy it**. So, what would you do now ?. Well, you did probably ask for a **recommendations or suggestions** from people with experience **(i.e. past data)**, and **who shares similar interest** and you like to gather advise from each one of them. 
+To understand this, lets imagine we're in the olden days. It's been your dream to buy a **new horse**, since there's no modern cars at the time. You have thought about it several days, and decided to buy it. But you **do not know which one to buy** and **where to buy it**. So, what would you do now ?. Well, you did probably ask for a **recommendations or suggestions** from people with experience **(i.e. past data)**, and **who shares similar interest** and you like to gather advise from each one of them. 
 
 ----------------------------------------------------------------------------------------------------------------
 Lets say, You have three best friends, and all of them were having equal knowledge but totally different varities of interests:
