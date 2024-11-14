@@ -8,9 +8,9 @@ Recommender Systems have become an essential part of our daily digital experienc
 
 Here's my informal version for the business world and beginners like me who are just getting started with recommender systems:
 
-Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write this story. When I started writing this page, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use case. 
+Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write this example. When I started writing this page, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use case. 
 
-To understand this, lets imagine we're in the olden days. You're in your mid-twenties, it's been your dream to buy a **new horse**, since there's no Ferrari and Tesla at the time. You have dreamed about it several days and even months, and finally after saving few coins everyday, you have saved enough. Now, you have enough big coins to buy a new horse. But you **do not know which one to buy** and **where to buy it**. So, what would you do now ?. Well, you did probably ask for a **recommendations or suggestions** from people with experience **(i.e. past data)**, and **who shares similar interest** and you like to gather advise from each one of them. 
+To understand this, lets imagine we're in the olden days. You're in your mid-twenties, it's been your dream to buy a **new horse**, since there's no modern cars at the time. You have thought about it several days, and decided to buy it. But you **do not know which one to buy** and **where to buy it**. So, what would you do now ?. Well, you did probably ask for a **recommendations or suggestions** from people with experience **(i.e. past data)**, and **who shares similar interest** and you like to gather advise from each one of them. 
 
 ----------------------------------------------------------------------------------------------------------------
 Lets say, You have three best friends, and all of them were having equal knowledge but totally different varities of interests:
@@ -29,7 +29,7 @@ Clearly,  **Friend A** has similar interest more similar to you and you would **
 
 Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if we have (100 million) 100, 000, 000 friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite math experts to perform this set of calculations, or else we need an advanced computers to perform this huge operations. 
 
-Luckily, the invention of Transitors provided the path to highly advanced office tools called "MS Excel" by which we can perform approx 1 million data points i.e 10, 48,576 rows to be precious, by pressing ctrl + down, we can reach there (Technically, csv file can handle more than that, but still it has limitations for modern recommender systems). 
+Luckily, the invention of Transitors provided the path to highly advanced office tools called "MS Excel" by which we can perform approx 1 million data points i.e 10, 48,576 rows to be precise, by pressing ctrl + down, we can reach there (Technically, csv file can handle more than that, but still it has limitations for modern recommender systems). 
 
 Basically we can use some build in data analysis statistical functions like correlations, cosine similarities to calculate and to identify similar users (below is the basic example).
 
