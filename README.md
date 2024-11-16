@@ -88,8 +88,7 @@ In machine learning, **epochs** tells us how many times we process our complete 
 
 ![image](https://github.com/user-attachments/assets/d157ae60-54c2-41e8-9bf3-e79e1250bc1b)
 
-Yet to learn though:
-**Agile Method:** While during development, We can also implement an Agile Methodologies - Here, is the summary for the Compiler Process:
+**Agile Method:** While during development, We can also implement an Agile Methodologies - Here, is the quick steps/summary:
 
 Lexical Analysis: Model Backlog is broken down into workable tasks.  
 
