@@ -29,7 +29,7 @@ Take this as an example, Clearly,  **Friend A** has similar interest more simila
 
 Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if we have 100 million friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite math experts to perform this set of calculations, or else we need an advanced computers to perform this huge operations. 
 
-Luckily, the invention of Transitors provided the path to highly advanced office tools called "MS Excel" by which we can perform approx 1 million data points (Technically, csv file can handle more than that, but still it has limitations for modern recommender systems). 
+Technology wise, We can perform approx upto 1 million data points in excel. Technically, csv file can handle more than that, but still it has limitations for modern recommender systems. 
 
 Basically we can use some build in data analysis statistical functions like correlations, cosine similarities to calculate and to identify similar users (below is the basic example).
 
@@ -37,7 +37,7 @@ Basically we can use some build in data analysis statistical functions like corr
 
 ![image](https://github.com/user-attachments/assets/937a996b-487a-436b-8329-4b950d9cfad1)
 
-It's a very basic example and there are some drawbacks associated with it, like sparse (zero) values, curse of dimensionality and other limitations.
+It's a very basic example and there are some drawbacks associated with it, like sparse zero values, curse of dimensionality and other limitations.
 
 In big data world, excel cannot handle such billion's of data volumn, so we can calculate the similarities between one user with respect to other Million users and we will get a combinations of roughly 1 quatrillion cosine score values which you can store it in on-prem database server (and in recent years all most all major companies migrated it to cloud/hybrid models).  We can slice and dice the data (ETL - Extract Transform and Load) in cloud, apply different statistical concepts (let's enable "Data Analysis" add-in toolpak), afterwards get the best and quicker combinations of results. 
 
