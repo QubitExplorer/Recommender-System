@@ -103,7 +103,7 @@ Code Generation: Working increment of Recommendation Engines. (E.g. MVP)
 
 **Recbole - Major Classifications:**
 
-Earlier, we have classified into two categories, and as per recbole we can classify into 4 major categories. 
+Four Further Types: 
 
 1. General Recommendation (GR): Netflix use case which we discussed above. The interaction of users and items is the only data that can be used by model. Trained on implicit feedback data and evaluated using top-n recommendation. Collaborative filter (CF) based models are classified here. 
 
