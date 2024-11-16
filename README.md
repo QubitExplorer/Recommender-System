@@ -13,7 +13,7 @@ Instead of throwing around random mathematical derivations for recommendation en
 To understand this, lets imagine we're in the olden days. We would like to buy a **new horse**, since there's no modern cars at the time. But we **do not know which one to buy** and **where to buy it**. So, what would we do now ?. Well, we would probably ask for a **recommendations or suggestions** from people with experience **(i.e. past data)**, and **who shares similar interest** and would gather advise from each one of them. 
 
 ----------------------------------------------------------------------------------------------------------------
-Lets say, You have three best friends, and all of them were having equal knowledge but totally different varities of interests:
+Lets say, we have three best friends, and all of them were having equal knowledge but totally different varities of interests:
 
 As a User (Horse Buyer), we like: **Football, Hiking, Climbing, Animal Caretaking and Reading**
 
