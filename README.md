@@ -10,26 +10,26 @@ Here's my informal version for the business world and beginners like me who are 
 
 Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write this example. In the beginning, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use case. 
 
-To understand this, lets imagine we're in the olden days. It's been your dream to buy a **new horse**, since there's no modern cars at the time. You have thought about it several days, and decided to buy it. But you **do not know which one to buy** and **where to buy it**. So, what would you do now ?. Well, you did probably ask for a **recommendations or suggestions** from people with experience **(i.e. past data)**, and **who shares similar interest** and you like to gather advise from each one of them. 
+To understand this, lets imagine we're in the olden days. We would like to buy a **new horse**, since there's no modern cars at the time. But we **do not know which one to buy** and **where to buy it**. So, what would we do now ?. Well, we would probably ask for a **recommendations or suggestions** from people with experience **(i.e. past data)**, and **who shares similar interest** and would gather advise from each one of them. 
 
 ----------------------------------------------------------------------------------------------------------------
 Lets say, You have three best friends, and all of them were having equal knowledge but totally different varities of interests:
 
-As a User (Horse Buyer), you personaly like: **Football, Hiking, Climbing, Animal Caretaking and Reading**
+As a User (Horse Buyer), we like: **Football, Hiking, Climbing, Animal Caretaking and Reading**
 
 Friend A: Enjoys **Football, Hiking, Running, Animal Caretaker and Climbing**
 
 Friend B: Prefer Singing, Writing and Reading.
 
-Friend C: Likes Bicycling (It seems that there is no bicycles until 1817, anyway its a story) and Singing.  
+Friend C: Likes Bicycling and Singing.  
 
 ----------------------------------------------------------------------------------------------------------------
 
-Clearly,  **Friend A** has similar interest more similar to you and you would **assign more weightage ** to him/her, right ?. In neural networks it called "weights". 
+Take this as an example, Clearly,  **Friend A** has similar interest more similar to you and you would **assign more weightage ** to him/her, right ?. In neural networks it called "weights". 
 
-Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if we have (100 million) 100, 000, 000 friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite math experts to perform this set of calculations, or else we need an advanced computers to perform this huge operations. 
+Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if we have 100 million friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite math experts to perform this set of calculations, or else we need an advanced computers to perform this huge operations. 
 
-Luckily, the invention of Transitors provided the path to highly advanced office tools called "MS Excel" by which we can perform approx 1 million data points i.e 10, 48,576 rows to be precise, by pressing ctrl + down, we can reach there (Technically, csv file can handle more than that, but still it has limitations for modern recommender systems). 
+Luckily, the invention of Transitors provided the path to highly advanced office tools called "MS Excel" by which we can perform approx 1 million data points (Technically, csv file can handle more than that, but still it has limitations for modern recommender systems). 
 
 Basically we can use some build in data analysis statistical functions like correlations, cosine similarities to calculate and to identify similar users (below is the basic example).
 
@@ -37,20 +37,20 @@ Basically we can use some build in data analysis statistical functions like corr
 
 ![image](https://github.com/user-attachments/assets/937a996b-487a-436b-8329-4b950d9cfad1)
 
-It's a very basic example and there are some drawbacks associated with it, like sparse (zero) values, curse of dimensionality etc.,
+It's a very basic example and there are some drawbacks associated with it, like sparse (zero) values, curse of dimensionality and other limitations.
 
-In big data world, excel cannot handle such billion's of data volumn, so we can calculate the similarities between one user with respect to other Million users and we will get a combinations of roughly 1 quatrillion cosine score values which you can store it in on-prem database server (and in recent years all most all major companies migrated it to cloud/hybrid models).  We can slice and dice the data (ETL - Extract Transform and Load) in cloud, apply different statistical concepts (let's enable "Data Analysis" add-in toolpak), afterwards get the best and quicker combinations of results. This could be how companies like Netflix and Amazon recommends thousands of products daily. 
+In big data world, excel cannot handle such billion's of data volumn, so we can calculate the similarities between one user with respect to other Million users and we will get a combinations of roughly 1 quatrillion cosine score values which you can store it in on-prem database server (and in recent years all most all major companies migrated it to cloud/hybrid models).  We can slice and dice the data (ETL - Extract Transform and Load) in cloud, apply different statistical concepts (let's enable "Data Analysis" add-in toolpak), afterwards get the best and quicker combinations of results. 
 
 Value Proposition:
 The field of AI and ML is still young - maybe 20-30 years old - keeps evolving.  Somewhere along the way, the concept became as "Recommender Systems". Millions of data scientists use this nomenclature nowadays. Maybe the recent techniques might be different, yet the core concept and unique benefit is still the same, **recommend the best similar product/service to the user**. Then comes the time series problem: yesterday we bought a horse, today we might buy a cute dog and how about tomorrow ?. It's the basic time series tasks. 
 
 Here are the few examples of companies using recommendation engines to drive digital transformation:
- 1. Amazon - To suggest similar products which we likely to hit enter and buy it, today its market value around 1.97 trillion us dollers,
+ 1. Amazon - To suggest similar products which we likely to hit enter and buy it, today its market value around 1.97 trillion US dollers,
  2. Netflix - We indulge into our favorite movies without even glancing at the clock, valued around 322 billion USD,
  3. Spotify - Where we listen similar songs and music which we preferably like it, valued appox 74 billion USD,
  4. Google Maps - Helps us to reach our favorite destination on time, without rushing. This is important for our below use cases.
 
-As per IBM, the **market scope** for recommender system is expected to be approx 20-28 billion by 2030, currently in 2024 valued approx 6 billion us dollers. 
+As per IBM, the **market scope** for recommender system is expected to be approx 20-28 billion by 2030, currently in 2024 valued approx 6 billion US dollers. 
 
 Here, we will be further exploring different varieties of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM. Similarly, In modern days there are varieties of recommender systems available and below are the two major types:
 1. Collaborative Filtering (User to User), and
