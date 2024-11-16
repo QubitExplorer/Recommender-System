@@ -27,7 +27,7 @@ Friend C: Likes Bicycling and Singing.
 
 Take this as an example, Clearly,  **Friend A** has similar interest more similar to you and you would **assign more weightage ** to him/her, right ?. In neural networks it called "weights". 
 
-Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if we have 100 million friends and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite math experts to perform this set of calculations, or else we need an advanced computers to perform this huge operations. 
+Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if we have 100 million users and all of them were having 50,000 different varities of interesting data points. Well, we may need to invite math experts to perform this set of calculations, or else we need an advanced computers to perform this huge operations. 
 
 Technology wise, We can perform approx upto 1 million data points in excel. Technically, csv file can handle more than that, but still it has limitations for modern recommender systems. 
 
