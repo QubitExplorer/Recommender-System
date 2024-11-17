@@ -41,12 +41,15 @@ Singular Value Decomposition: (SVD to decompose the original matrices into three
 ![image](https://github.com/user-attachments/assets/50bac5cb-eae8-44f2-8ca0-270a69233eef)
 
 Take Away from SVD:
-Higher positive values in the reconstructed matrix indicate stronger recommendations.
 
-For users or hobbies not strongly represented, values will remain closer to 0 or negative.
+1. Higher positive values in the reconstructed matrix indicate stronger recommendations.
+
+2. For users or hobbies not strongly represented, values will remain closer to 0 or negative.
+
+In this case, we can recommend user A a "Reading", because its a higher positive value (i.e. 0.96, refer last matrices User A/Friend A and they doesn't have the habit of reading already)  
 
 
-It's a very basic example and there are some drawbacks associated with it, like sparse zero values, curse of dimensionality and other limitations.
+It's a basic example and there are some drawbacks associated with it, like sparse zero values, curse of dimensionality and other limitations.
 
 In big data world, excel cannot handle such billion's of data volumn, so we can calculate the similarities between one user with respect to other Million users and we will get a combinations of roughly 1 quatrillion cosine score values which you can store it in on-prem database server (and in recent years all most all major companies migrated it to cloud/hybrid models).  We can slice and dice the data (ETL - Extract Transform and Load) in cloud, apply different statistical concepts (let's enable "Data Analysis" add-in toolpak), afterwards get the best and quicker combinations of results. 
 
