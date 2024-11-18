@@ -46,8 +46,7 @@ Take Away from SVD:
 
 2. For users or hobbies not strongly represented, values will remain closer to 0 or negative.
 
-In this case, we can recommend user A a "Reading", because its a higher positive value (i.e. 0.96, refer last matrices User A/Friend A and they doesn't have the habit of reading already)  
-
+In this case, (User to User): the horse buyer has atleast a good co-relation with User A (0.55 is a good start).  additionally (Content to Content) we can even recommend user A for "Reading", because of higher positive value (i.e. 0.96, refer last matrices User A and they doesn't have this habit of reading already).  
 
 It's a basic example and there are some drawbacks associated with it, like sparse zero values, curse of dimensionality and other limitations.
 
