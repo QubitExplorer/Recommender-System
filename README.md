@@ -2,7 +2,7 @@
 
 Recommender Systems have become an essential part of our daily digital experiences. Here, I will be preparing two distinct versions on this topic:
 
-1. A formal PDF version, complete with citations and detailed technical explanations of the underlying concepts.
+1. A formal PDF version, complete with citations and detailed technical explanations of the underlying concepts. 
 
 2. An informal version designed for subject matter experts, focusing on practical applications without deep technical explanations for ease understanding.
 
@@ -95,6 +95,8 @@ List of Different Varieties of Datasets: (Ref: https://recbole.io/)
 
 In machine learning, **epochs** tells us how many times we process our complete data until we reach final/optimum goal. For example, instead of collecting feedback on just single day, we decided to ask our three friends consecutively for next 10 days. Every day evening, we collect feedback, take rest and next day we have a fresh mind and re-adjust our weights slightly.  Our friends gave us slightly different feedback until day 3, from 4th day onwards they started giving you an consistent and similar feedback until day 10 (epoch), where we finally convinced with our decision making process and to buy perfect product.  And, how fast did we adjust our weights to reach that optimum level is called **learning rate** (Usually it's like 0.01, 0.001 etc). 
 
+Cold Start Problem (For new users): TBA
+
 **Other Models:** To be tested.
 
 ![image](https://github.com/user-attachments/assets/d157ae60-54c2-41e8-9bf3-e79e1250bc1b)
@@ -154,7 +156,7 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 
 3. RecGPT: RecGPT is a domain-adapted large language model specifically trained for text-based recommendation tasks.
 
-**References:**
+**References (for formal version):**
 1. https://recbole.io/docs/user_guide/model/general/bpr.html
 2. https://recbole.io/
 3. https://grouplens.org/datasets/movielens/100k/
@@ -164,5 +166,11 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 7. https://www.amazon.science/the-history-of-amazons-recommendation-algorithm
 8. https://www.amazon.science/code-and-datasets/simrec-mitigating-the-cold-start-problem-in-sequential-recommendation-by-integrating-item-similarity
 9. https://github.com/amazon-science
+10. xLSTM-Mixer: Multivariate Time Series Forecasting by Mixing via Scalar Memories: https://doi.org/10.48550/arXiv.2410.16928
+11. xLSTM: Extended Long Short-Term Memory: https://arxiv.org/pdf/2405.04517
+12. xLSTM Time : Long-term Time Series Forecasting With xLSTM: https://doi.org/10.48550/arXiv.2407.10240
+13. Quaternion Transformer4Rec: Quaternion numbers-based Transformer for recommendation: https://github.com/vanzytay/QuaternionTransformers
+14. Recommender Systems: A Primer: https://doi.org/10.48550/arXiv.2302.02579
+15. Exploring the Impact of Large Language Models on Recommender Systems: An Extensive Review: https://arxiv.org/pdf/2402.18590
 
    
