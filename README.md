@@ -160,7 +160,7 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 3. https://grouplens.org/datasets/movielens/100k/
 4. https://huggingface.co/docs/hub/en/models-the-hub
 5. https://www.ibm.com/think/topics/recommendation-engine#:~:text=The%20market%20for%20recommendation%20systems,to%20triple%20in%205%20years.&text=Uncover%20the%20benefits%20of%20AI%20platforms%20that%20enable%20foundation%20model%20customization.
-6. https://openai.com/ (For content reviews & fact checks)
+6. https://openai.com/ 
 7. https://www.amazon.science/the-history-of-amazons-recommendation-algorithm
 8. https://www.amazon.science/code-and-datasets/simrec-mitigating-the-cold-start-problem-in-sequential-recommendation-by-integrating-item-similarity
 9. https://github.com/amazon-science
