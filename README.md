@@ -6,16 +6,11 @@ Recommender Systems have become an essential part of our daily digital experienc
 
 2. An informal version designed for subject matter experts, focusing on practical applications without deep technical explanations for ease understanding.
 
-Here's my informal version for the business world and beginners like me who are just getting started with recommender systems:
-
-Instead of throwing around random mathematical derivations for recommendation engine or recommender systems, I finally decided to write this example. In the beginning, I knew nothing about recommendation engine.  So, let's take a guess: what are they, how it might work, why do we need them in our daily lives and how we can leverage it for various real life use case. 
-
-To understand this, lets imagine we're in the olden days. We would like to buy a **new horse**, since there's no modern cars at the time. But we **do not know which one to buy** and **where to buy it**. So, what would we do now ?. Well, we would probably ask for a **recommendations or suggestions** from people with experience **(i.e. past data)**, and **who shares similar interest** and would gather advise from each one of them. 
-
+Here is a quick example for recommendation engine, to get started:
 ----------------------------------------------------------------------------------------------------------------
 Lets say, we have three best friends, and all of them were having equal knowledge but totally different varities of interests:
 
-As a User (Horse Buyer), we like: **Football, Hiking, Climbing, Animal Caretaking and Reading**
+As a User (New Product), we like: **Football, Hiking, Climbing, Animal Caretaking and Reading**
 
 Friend A: Enjoys **Football, Hiking, Running, Animal Caretaker and Climbing**
 
@@ -55,15 +50,9 @@ It's a basic example and there are some drawbacks associated with it, like spars
 Technology Point of View: In big data era, excel cannot handle such billion's of data volumn, so we can calculate the similarities between one user with respect to other Million users and we will get a combinations of roughly 1 quatrillion cosine score values which we can store it in on-prem database server (and in recent years all most all major companies migrated it to cloud/hybrid models).  We can slice and dice the data (ETL - Extract Transform and Load) in cloud, apply different statistical concepts ( enable "Data Analysis" add-in toolpak), afterwards get the best and quicker combinations of results. 
 
 Value Proposition:
-The field of AI and ML is still young - maybe 20-30 years old - keeps evolving.  Somewhere along the way, the concept became as "Recommender Systems". Millions of data scientists use this nomenclature nowadays. Maybe the recent techniques might be different, yet the core concept and unique benefit is still the same, **recommend the best similar product/service to the user**. Then comes the time series problem: yesterday we bought a horse, today we might buy a another product and how about tomorrow ?. It's the basic time series tasks to help the end user. 
+The core concept and unique benefit is: **recommend the best similar product/service to the user** along with a time series tasks to help the end users. 
 
-Here are the few examples of companies using recommendation engines to drive digital transformation:
- 1. Amazon - To suggest similar products which we likely to hit enter and buy it, today its market value around 1.97 trillion US dollers,
- 2. Netflix - We indulge into our favorite movies without even glancing at the clock, valued around 322 billion USD,
- 3. Spotify - Where we listen similar songs and music which we preferably like it, valued appox 74 billion USD,
- 4. Google Maps - Helps us to reach our favorite destination on time, without rushing. This is important for our below use cases.
-
-As per IBM, the **market scope** for recommender system is expected to be approx 20-28 billion by 2030, currently in 2024 valued approx 6 billion US dollers. 
+It is estimated that the **market scope** for recommender system is expected to be approx 20-28 billion by 2030, currently in 2024 valued approx 6 billion US dollers. 
 
 Here, we will be further exploring different varieties of recommendation algorithms available today and we also going to develop new customizable model using deep learning techniques like RNN, CNN, and LSTM. Similarly, In modern days there are varieties of recommender systems available and below are the two major types:
 1. Collaborative Filtering (User to User), and
