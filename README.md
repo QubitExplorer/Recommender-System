@@ -172,5 +172,9 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 13. Quaternion Transformer4Rec: Quaternion numbers-based Transformer for recommendation: https://github.com/vanzytay/QuaternionTransformers
 14. Recommender Systems: A Primer: https://doi.org/10.48550/arXiv.2302.02579
 15. Exploring the Impact of Large Language Models on Recommender Systems: An Extensive Review: https://arxiv.org/pdf/2402.18590
+16. Recommender Systems with Generative Retrieval: https://openreview.net/pdf?id=BJ0fQUU32w
+17. Attention Is All You Need: https://arxiv.org/abs/1706.03762
+
+
 
    
