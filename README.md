@@ -1,12 +1,27 @@
 # Recommender Systems: Let me tell you a story!
 
-Recommender Systems have become an essential part of our daily digital experiences. Here, I will be preparing two distinct versions on this topic:
+At its core, a recommendation engine uses computer algorithms to predict and suggest items of interest to users based on their past behaviors and contextual data. On the deep learning front, xLSTM and Transformers have been eveolved with latest architectures and plays a very important role in Large Language Models. Since recommenders have became an essential part of our daily digital experiences, in this paper we will be leveraging XLSTM architecture based recommenders and will be comparing the results with other modern architectures like Autotransformers, Recurring Neural Networks (RNN) and other Matrix Factorization Methods. xLSTM (extended LSTM) incorporates architectural enhancements like attention mechanism, gating improvments and bidirectional capabilities. It will be impactful due to several unique aspects when to compared to the tradional successful methods. 
 
-1. A formal PDF version, complete with citations and detailed technical explanations of the underlying concepts. 
+Here, I will be preparing two distinct versions on this topic:
+
+1. A formal PDF version, complete with citations and detailed technical explanations of the underlying concepts. (NeurIPS Format)
 
 2. An informal version designed for subject matter experts, focusing on practical applications without deep technical explanations for ease understanding.
 
-Here is a quick example for recommendation engine, to get started:
+
+Formal Version: 
+
+XLSTM Architecture:
+
+Transformers Architecture:
+
+Matrix Factorization Method:
+
+
+
+Informal Version: 
+
+Here is a quick example for recommendation engine, to get started meanwhile:
 ----------------------------------------------------------------------------------------------------------------
 Lets say, we have three best friends, and all of them were having equal knowledge but totally different varities of interests:
 
@@ -127,9 +142,11 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 7. Aviation and Transportation, and 
 8. Other Specialized Sectors. 
 
-**Evaluation Metrics:** We also need to validate the model accuracy and we will be using Recall, Precision, ndcg. 
+**Evaluation Metrics:** To evaluate the model accuracy Recall 5, 10, Precision, NDCG will be used mainly. 
 
-**Hybrid Methods & Noval Approaches:** To be added further. 
+**Hybrid Methods & Noval Approaches:** xLSTM (extended LSTM) incorporates architectural enhancements like attention mechanism, gating improvments and bidirectional capabilities. It will be impactful due to several unique aspects when to compared to the tradional successful methods. 
+
+xLSTM Architecture Based Recommenders
 
 **Few Hugging Face models to be tested:**
 1. Transformers4Rec by NVIDIA: Integrates with Hugging Face Transformers, enabling the application of transformer architectures to sequential and session-based recommendation tasks.
