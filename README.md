@@ -141,6 +141,7 @@ It measures the accuracy.
 3. RecGPT: RecGPT is a domain-adapted large language model specifically trained for text-based recommendation tasks.
 
 **References:**
+
 [1] xLSTM: Extended Long Short-Term Memory: https://arxiv.org/pdf/2405.04517
 
 [2] xLSTM-Mixer: Multivariate Time Series Forecasting by Mixing via Scalar Memories: https://doi.org/10.48550/arXiv.2410.16928
