@@ -4,7 +4,7 @@ At its core, a recommendation engine uses computer algorithms to predict and sug
 
 Here, I will be preparing two distinct versions on this topic:
 
-1. A formal PDF version, complete with citations and detailed technical explanations of the underlying concepts. (NeurIPS Format)
+1. A formal PDF version, complete with citations and detailed technical explanations of the underlying concepts. (Neurips Format)
 
 2. An informal version designed for subject matter experts, focusing on practical applications without deep technical explanations for ease understanding.
 
