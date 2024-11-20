@@ -15,11 +15,11 @@ A transformer-based recommender system uses an embedding layer to convert the us
 **Proposed Hybrid Methods & Noval Approaches:** xLSTM (extended LSTM) incorporates architectural enhancements like attention mechanism, gating improvments and bidirectional capabilities. It will be impactful due to several unique aspects when to compared to the traditional successful methods. 
 
 
-First Let's start understand with simple Example: Here is a quick example for recommendation engine, to get started:
+First Let's start with basic example, to get started:
 ----------------------------------------------------------------------------------------------------------------
 Lets say, we have three best friends, and all of them were having equal knowledge but totally different varities of interests:
 
-As a New User (Product/Service Buyer), likes **Football, Hiking, Climbing, Animal Caretaking and Reading**
+As a New User (Product/Service Buyer), may likes **Football, Hiking, Climbing, Animal Caretaking and Reading**
 
 Friend A (Existing user A): Enjoys **Football, Hiking, Running, Animal Caretaker and Climbing**
 
@@ -39,7 +39,7 @@ Now, its just about three friends with eight different interest, which is easier
 
 Singular Value Decomposition: (SVD to decompose the original matrices into three smaller matrices)
 ![image](https://github.com/user-attachments/assets/50bac5cb-eae8-44f2-8ca0-270a69233eef)
-*Slight variations in the input matrices.
+*Slight variations in the input matrices noted.
 
 
 Take Away from SVD:
