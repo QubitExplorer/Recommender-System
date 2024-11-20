@@ -39,6 +39,8 @@ Now, its just about three friends with eight different interest, which is easier
 
 Singular Value Decomposition: (SVD to decompose the original matrices into three smaller matrices)
 ![image](https://github.com/user-attachments/assets/50bac5cb-eae8-44f2-8ca0-270a69233eef)
+*Slight variations in the input matrices.
+
 
 Take Away from SVD:
 
@@ -108,7 +110,7 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 2. Banking and Fintech sectors, (Wealth Management, Customized Credit Products, Investment Portfolio's, Equities, and Insurance plan recommendations)
 3. Technology and Service sectors, (Ecommerce Products)
 4. Entertainment and Gamification, (Custom Localization and Immersive Experience)
-5. Agriculture (AI-based recommendations for improved crop yield, agricultural products, custom fertilizers, supply and demand forecasting, as well as weather and climate change insights using satellite data.)
+5. Food/Beverages & Agriculture Industry (AI-based recommendations for improved crop yield, agricultural products, custom fertilizers, supply and demand forecasting, as well as weather and climate change insights using satellite data.)
 6. Healthcare and Pharmaceutical, 
 7. Aviation and Transportation, and 
 8. Other Specialized Sectors. 
