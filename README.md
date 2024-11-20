@@ -1,15 +1,6 @@
 # Recommender Systems: Let me tell you a story!
 
-At its core, a recommendation engine uses computer algorithms to predict and suggest items of interest to users based on their past behaviors and contextual data. On the deep learning front, xLSTM and Transformers have been eveolved with latest architectures and plays a very important role in Large Language Models. Since recommenders have became an essential part of our daily digital experiences, in this paper we will be leveraging XLSTM architecture based recommenders and will be comparing the results with other modern architectures like Autotransformers, Recurring Neural Networks (RNN) and other Matrix Factorization Methods. xLSTM (extended LSTM) incorporates architectural enhancements like attention mechanism, gating improvments and bidirectional capabilities. It will be impactful due to several unique aspects when to compared to the tradional successful methods. 
-
-Here, I will be preparing two distinct versions on this topic:
-
-1. A formal PDF version, complete with citations and detailed technical explanations of the underlying concepts. (Neurips Format)
-
-2. An informal version designed for subject matter experts, focusing on practical applications without deep technical explanations for ease understanding.
-
-
-Formal Version: 
+At its core, a recommendation engine uses computer algorithms to predict and suggest items of interest to users based on their past behaviors and contextual data. On the deep learning front, xLSTM (extended LSTM) and Transformers have been eveolved with latest architectures and plays a very important role in Large Language Models. Since recommenders have became an essential part of our daily digital experiences, in this paper we will be leveraging XLSTM architecture based recommenders and will be comparing the results with other modern architectures like Autotransformers, Recurring Neural Networks (RNN) and other Matrix Factorization Methods. xLSTM incorporates architectural enhancements like attention mechanism, gating improvments and bidirectional capabilities. It will be impactful due to several unique aspects when to compared to the tradional successful methods. 
 
 XLSTM Architecture:
 
@@ -17,15 +8,11 @@ Transformers Architecture:
 
 Matrix Factorization Method:
 
-
-
-Informal Version: 
-
-Here is a quick example for recommendation engine, to get started meanwhile:
+Here is a quick example (For Informal Version) for recommendation engine, to get started:
 ----------------------------------------------------------------------------------------------------------------
 Lets say, we have three best friends, and all of them were having equal knowledge but totally different varities of interests:
 
-As a User (New Product), we like: **Football, Hiking, Climbing, Animal Caretaking and Reading**
+As a User (Product/Service Buyer), likes **Football, Hiking, Climbing, Animal Caretaking and Reading**
 
 Friend A: Enjoys **Football, Hiking, Running, Animal Caretaker and Climbing**
 
