@@ -129,10 +129,7 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 
 3. RecGPT: RecGPT is a domain-adapted large language model specifically trained for text-based recommendation tasks.
 
-**Conclusion**: 
-Various recommender algorithm has been tested with noval approach with xLSTM along with other hybrid models. Performance has been studied and accuracy has been significantly improved. The codes and datasets used in this project has been documented here in this github page. Finally, conclude (to be added) that the xLSTM core benefits like attention mechanism and gating improvements helps to improve the accuracy further. In future, various xLSTM models can be leveraged further for various industry use cases and emerging applications. 
-
-**References (for formal version):**
+**References:**
 1. https://recbole.io/docs/user_guide/model/general/bpr.html
 2. https://recbole.io/
 3. https://grouplens.org/datasets/movielens/100k/
