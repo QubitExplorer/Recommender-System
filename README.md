@@ -115,15 +115,16 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 
 **Evaluation Metrics:** To evaluate the model accuracy Recall 5, 10, Precision, NDCG will be used mainly. 
 
-Recall = How many relavant items recommended/Total no. of relavant items **available**
+Recall = How many relevant items recommended/Total No. of relevant items **available**
 
-It measures the relavance. 
+It measures the relevance. 
 
-Precision: How many relavant items recommended//Total no. of items **recommended**
+Precision: How many relevant items recommended//Total No. of items **recommended**
 
 It measures the accuracy.
 
 **Normalized Discounted Combined Gain (NDGC):** For Ranking.
+
 
 **Few Hugging Face models to be tested:**
 1. Transformers4Rec by NVIDIA: Integrates with Hugging Face Transformers, enabling the application of transformer architectures to sequential and session-based recommendation tasks.
