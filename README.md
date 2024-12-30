@@ -29,7 +29,7 @@ Friend C (Existing user C): Likes Bicycling and Singing.
 
 ----------------------------------------------------------------------------------------------------------------
 
-Take this as an informal example, Clearly,  **Friend A** has similar interest more similar to new user and we would **assign more weightage ** to him/her, right ?. In neural networks it called "weights". 
+Take this as an simple example, Clearly,  **Friend A** has similar interest more similar to new user and we would **assign more weightage ** to him/her, right ?. In neural networks it called "weights". 
 
 Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if we have 100 million users and all of them were having 50,000 different varities of interesting data points. Then we may need to leverage the latest techniques. 
 
@@ -54,8 +54,7 @@ Additionally (Content to Content) we can even recommend user A for "Reading", be
 
 It's a basic example and there are some drawbacks associated with it, like sparse zero values, curse of dimensionality and other limitations.
 
-Value Proposition:
-The core concept and unique benefit is: **recommend the best similar product/service to the user** along with a time series tasks to help the end users. 
+Value Proposition: The core concept and unique benefit is still the same **recommend the best similar product/service to the end user** and to help them. 
 
 It is also estimated that the **market scope** for recommender system is expected to be approx 20-28 billion by 2030, currently in 2024 valued approx 6 billion US dollers. 
 
@@ -99,11 +98,12 @@ Four Classifications:
 
 2. Content-aware Recommendation: Amazon use case. Click-through rate prediction, CTR prediction. The dataset is explicit and contains label field. Evaluation conducted by binary classification.
 
-SEO (Search Engine Optimization) and SEM techniques may also be merged, along with Google Adsense and adwords, to improve user experience further. 
-
 3. Sequential Recommendation: Spotify, similar to time series problem, which we discussed earlier. The task of SR (next-item recommendation) is the same as GR which sorts a list of items according to preference. History interactions are organized in sequences and the model tends to characterize the sequential data. Session-based recommendation are also included here.
 
 4. Knowledge-based Recommendation: Knowledge-based recommendation introduces an external knowledge graph to enhance general or sequential recommendation.
+
+SEO (Search Engine Optimization) and SEM techniques may also be merged, along with Google Adsense and adwords, to improve user experience further. 
+
 
 **Scope** For Recommendation Engines In Various Sectors:
 1. Energy Sectors, (Energy Saving Programs, Substations, CO2 Emission, Solar, Grid Automation, Sensor Meters, Electrical Products and HVAC transmission)
