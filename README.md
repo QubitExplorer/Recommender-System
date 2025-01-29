@@ -1,4 +1,4 @@
-# Recommender Systems: Let me tell you a story!
+# Recommender Systems: 
 
 Audio Podcast Version: https://notebooklm.google.com/notebook/4bdd617f-a731-45eb-b3e6-3cdc2d7479d2/audio
 
