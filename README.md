@@ -31,7 +31,7 @@ Friend C (Existing user C): Likes Bicycling and Singing.
 
 ----------------------------------------------------------------------------------------------------------------
 
-Take this as an simple example, Clearly,  **Friend A** has similar interest more similar to new user and we would **assign more weightage ** to him/her, right ?. In neural networks it called "weights". 
+As an simple example, Clearly,  **Friend A** has similar interest more similar to new user and we would **assign more weightage **. (weights) 
 
 Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if we have 100 million users and all of them were having 50,000 different varities of interesting data points. Then we may need to leverage the latest techniques. 
 
@@ -58,7 +58,7 @@ It's a basic example and there are some drawbacks associated with it, like spars
 
 Value Proposition: The core concept and unique benefit is still the same **recommend the best similar product/service to the end user** and to help them. 
 
-It is also estimated that the **market scope** for recommender system is expected to be approx 20-28 billion by 2030, currently in 2024 valued approx 6 billion US dollers. 
+It is also estimated that the **market scope** for recommender system is expected to be approx 20-28 billion by 2030, currently in 2024 valued approx 6 billion US dollars. 
 
 Below are the two major types in Recommenders:
 1. Collaborative Filtering (User to User), and
