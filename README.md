@@ -87,7 +87,12 @@ List of Different Varieties of Datasets: (Ref: https://recbole.io/)
 
 In machine learning, **epochs** tells us how many times we process our complete data until we reach final/optimum goal.  And, how fast did we adjust our weights to reach that optimum level is called **learning rate** (Usually it's like 0.01, 0.001 etc). 
 
-Cold Start Problem (For new users): TBA
+Cold Start Problem (For new users when we don't have data): 
+Some of the commonly used approaches were:
+1. Clustering Approach,
+2. Profile Based (Meta Data) Approach,
+3. Hierarchical approach, and
+4. Novalty or Randomness Approach
 
 ![image](https://github.com/user-attachments/assets/d157ae60-54c2-41e8-9bf3-e79e1250bc1b)
 
