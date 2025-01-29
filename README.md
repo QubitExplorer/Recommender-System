@@ -78,7 +78,7 @@ List of Different Varieties of Datasets: (Ref: https://recbole.io/)
 
 ![image](https://github.com/user-attachments/assets/d2bf1736-6617-4afc-9dbe-88134e8e40fe)
 
-In machine learning, **epochs** tells us how many times we process our complete data until we reach final/optimum goal.  And, how fast did we adjust our weights to reach that optimum level is called **learning rate** (Usually it's like 0.01, 0.001 etc). 
+In machine learning, **epochs** tells us how many times we process our complete data until we reach final/optimum goal.  And, how fast did we adjust our weights to reach that optimum level is called **learning rate** (Usually 0.01, 0.001 is a good start). 
 
 Cold Start Problem (For new users when we don't have data): 
 Some of the commonly used approaches were:
