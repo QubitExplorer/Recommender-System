@@ -17,8 +17,8 @@ A transformer-based recommender system uses an embedding layer to convert the us
 **Proposed Hybrid Methods & Noval Approaches:** xLSTM (extended LSTM) incorporates architectural enhancements like attention mechanism, gating improvments and bidirectional capabilities. It will be impactful due to several unique aspects when to compared to the traditional successful methods. 
 
 
-First Let's start with basic example, to get started:
-----------------------------------------------------------------------------------------------------------------
+To start with the basic example:
+
 Lets say, we have three best friends, and all of them were having equal knowledge but totally different varities of interests:
 
 As a New User (Product/Service Buyer), may likes **Football, Hiking, Climbing, Animal Caretaking and Reading**
@@ -33,7 +33,7 @@ Friend C (Existing user C): Likes Bicycling and Singing.
 
 As an simple example, Clearly,  **Friend A** has similar interest more similar to new user and we would **assign more weightage **. (weights) 
 
-Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if we have 100 million users and all of them were having 50,000 different varities of interesting data points. Then we may need to leverage the latest techniques. 
+Now, its just about three friends with eight different interest, which is easier for calculations. What would be the case if we have 100 million users and all of them were having 50,000 different varities of interesting data points. Then we may need to leverage the advanced techniques. 
 
 ![image](https://github.com/user-attachments/assets/a102eda4-475a-42f1-a692-e90480215c5e)
 
@@ -67,9 +67,8 @@ Below are the two major types in Recommenders:
 Different Simple methods to identify user similarities:
 1. Correlations, 2. Cosine Similarities, 3. Jaccard Similarities, 4. Euclidean Distance, 5. Hamming Distance, 6. Manhatten Distance, 7. Bhattachryya Distance,
 8. Neural Network Embeddings (Collaborative Filtering), 9. Kullback Leibler divergence, 10. Embeddings and Latent Features, 11. Sequence-Based Similarity,
-12. Deep Collaborative Filtering with Embeddings (via Neural Networks), 13. Transformer Models for Sequential Recommendations (e.g. BERT4Rec), 
-14. In life science application (some techniques used for DNA Sequencing to find the similarities, which could also be leveraged for RS), and
-15. Other Hybrid Approches.
+12. Deep Collaborative Filtering with Embeddings (via Neural Networks), 13. Transformer Models for Sequential Recommendations (e.g. BERT4Rec), and
+14. Other Hybrid Approches.
 
 **Data Sources:** Here, we will be leveraging RecBole libraries to explore various models and to develop more customizable one. 
 
