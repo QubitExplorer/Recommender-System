@@ -65,12 +65,9 @@ Below are the two major types in Recommenders:
 2. Content Based Filtering (Product to Product).
 
 Different Simple methods to identify user similarities:
-1. Correlations, 2. Cosine Similarities, 3. Jaccard Similarities, 4. Euclidean Distance, 
-5. Hamming Distance, 6. Manhatten Distance, 7. Bhattachryya Distance,
-8. Neural Network Embeddings (Collaborative Filtering),
-9. Kullback Leibler divergence, 10. Embeddings and Latent Features, 11. Sequence-Based Similarity,
-12. Deep Collaborative Filtering with Embeddings (via Neural Networks),
-13. Transformer Models for Sequential Recommendations (e.g. BERT4Rec), 
+1. Correlations, 2. Cosine Similarities, 3. Jaccard Similarities, 4. Euclidean Distance, 5. Hamming Distance, 6. Manhatten Distance, 7. Bhattachryya Distance,
+8. Neural Network Embeddings (Collaborative Filtering), 9. Kullback Leibler divergence, 10. Embeddings and Latent Features, 11. Sequence-Based Similarity,
+12. Deep Collaborative Filtering with Embeddings (via Neural Networks), 13. Transformer Models for Sequential Recommendations (e.g. BERT4Rec), 
 14. In life science application (some techniques used for DNA Sequencing to find the similarities, which could also be leveraged for RS), and
 15. Other Hybrid Approches.
 
@@ -124,16 +121,11 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 
 **Evaluation Metrics:** To evaluate the model accuracy Recall 5, 10, Precision, NDCG will be used mainly. 
 
-Recall = How many relevant items recommended/Total No. of relevant items **available**
+Recall = How many relevant items recommended/Total No. of relevant items **available** (measures the relevance. )
 
-It measures the relevance. 
-
-Precision: How many relevant items recommended//Total No. of items **recommended**
-
-It measures the accuracy.
+Precision: How many relevant items recommended//Total No. of items **recommended** (measures the accuracy.)
 
 **Normalized Discounted Combined Gain (NDGC):** For Ranking.
-
 
 **Few Hugging Face models to be tested:**
 1. Transformers4Rec by NVIDIA: Integrates with Hugging Face Transformers, enabling the application of transformer architectures to sequential and session-based recommendation tasks.
