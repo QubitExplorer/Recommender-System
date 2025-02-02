@@ -77,6 +77,7 @@ List of Different Varieties of Datasets: (Ref: https://recbole.io/)
 
 -------------------------------------------------------------------------------------------------------------------------------------
 **Dataset 1: MovieLENS (100-K)**
+
 **Model: Bert4Rec**
 
 **Sample Input Datasets:**
@@ -99,7 +100,7 @@ Precision: How many relevant items recommended//Total No. of items **recommended
 
 **Learning rate:**, How fast did we adjust our weights to reach that optimum level.
 
-**Cold Start Problem** (For new users when we don't have data): 
+**Cold Start Problem** (For new users when we don't have data, 192 users): 
 Some of the commonly used approaches were:
 1. Clustering Approach,
 2. Profile Based (Meta Data) Approach,
@@ -112,6 +113,7 @@ Sample Output:
 ![image](https://github.com/user-attachments/assets/ae41618e-a913-44c1-80d6-76d15a3faba3)
 
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
 **Recbole - Major Classifications:**
 
