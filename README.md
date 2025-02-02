@@ -75,14 +75,31 @@ List of Different Varieties of Datasets: (Ref: https://recbole.io/)
 
 ![image](https://github.com/user-attachments/assets/e842adf0-6eaa-48b7-9ffa-68312db0788e)
 
-**Results:** Comparision and Performance Results For All Approaches:
-1st set of results for the simple BPR model with 10 epochs, for movielens datasets: (To be fine tuned further)
+-------------------------------------------------------------------------------------------------------------------------------------
+**Dataset 1: MovieLENS (100-K)**
+**Model: Bert4Rec**
 
-![image](https://github.com/user-attachments/assets/d2bf1736-6617-4afc-9dbe-88134e8e40fe)
+**Sample Input Datasets:**
+![image](https://github.com/user-attachments/assets/9a728e92-2d62-4f6e-b2cd-96080a482eb1)
 
-In machine learning, **epochs** tells us how many times we process our complete data until we reach final/optimum goal.  And, how fast did we adjust our weights to reach that optimum level is called **learning rate** (Usually 0.01, 0.001 is a good start). 
+**Performance Optimization:** Comparision and Performance Results For All Approaches:
+1st set of results (To be fine tuned further)
 
-Cold Start Problem (For new users when we don't have data): 
+![image](https://github.com/user-attachments/assets/b2f78535-fe0f-419d-822d-57626102bd5f)
+
+**Evaluation Metrics:** To evaluate the model accuracy Recall 5, 10, Precision, NDCG will be used mainly. 
+
+Recall = How many relevant items recommended/Total No. of relevant items **available** (measures the relevance. )
+
+Precision: How many relevant items recommended//Total No. of items **recommended** (measures the accuracy.)
+
+**Normalized Discounted Combined Gain (NDGC):** For Ranking.
+
+**Epochs:** How many times we process our complete data until we reach final/optimum goal. 
+
+**Learning rate:**, How fast did we adjust our weights to reach that optimum level.
+
+**Cold Start Problem** (For new users when we don't have data): 
 Some of the commonly used approaches were:
 1. Clustering Approach,
 2. Profile Based (Meta Data) Approach,
@@ -90,6 +107,10 @@ Some of the commonly used approaches were:
 4. Novalty or Randomness Approach
 
 ![image](https://github.com/user-attachments/assets/d157ae60-54c2-41e8-9bf3-e79e1250bc1b)
+
+Sample Output:
+![image](https://github.com/user-attachments/assets/ae41618e-a913-44c1-80d6-76d15a3faba3)
+
 
 
 **Recbole - Major Classifications:**
@@ -106,7 +127,6 @@ Four Classifications:
 
 SEO (Search Engine Optimization) and SEM techniques may also be merged, along with Google Adsense and adwords, to improve user experience further. 
 
-
 **Scope** For Recommendation Engines In Various Sectors:
 1. Energy Sectors, (Energy Saving Programs, Substations, CO2 Emission, Solar, Grid Automation, Sensor Meters, Electrical Products and HVAC transmission)
 2. Banking and Fintech sectors, (Wealth Management, Customized Credit Products, Investment Portfolio's, Equities, and Insurance plan recommendations)
@@ -116,14 +136,6 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 6. Healthcare and Pharmaceutical, 
 7. Aviation and Transportation, and 
 8. Other Specialized Sectors. 
-
-**Evaluation Metrics:** To evaluate the model accuracy Recall 5, 10, Precision, NDCG will be used mainly. 
-
-Recall = How many relevant items recommended/Total No. of relevant items **available** (measures the relevance. )
-
-Precision: How many relevant items recommended//Total No. of items **recommended** (measures the accuracy.)
-
-**Normalized Discounted Combined Gain (NDGC):** For Ranking.
 
 **Few Hugging Face models to be tested:**
 1. Transformers4Rec by NVIDIA: Integrates with Hugging Face Transformers, enabling the application of transformer architectures to sequential and session-based recommendation tasks.
