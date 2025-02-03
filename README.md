@@ -13,50 +13,7 @@ A transformer-based recommender system uses an embedding layer to convert the us
 
 **Matrix Factorization Based:** It decompose a user-item interaction matrix into two smaller matrices: one representing users and the other representing items. These matrices capture latent factors (hidden patterns) that explain the user preferences and item characteristics. By reconstructing the original matrix, the system predicts how much a user might like an unseen item. Some techniques include SIngular Value Decomposition (SVD), Non-Negative Matrix Factorization (NMF) and Probabilistic Matrix Factorization (PMF).
 
-
 **Proposed Hybrid Methods & Noval Approaches:** xLSTM (extended LSTM) incorporates architectural enhancements like attention mechanism, gating improvments and bidirectional capabilities. It will be impactful due to several unique aspects when to compared to the traditional successful methods. 
-
-
-To start with the basic example:
-
-Lets say, we have three best users, and all of them were having equal knowledge but totally different varities of interests:
-
-As a New User (Product/Service Buyer), may likes **Football, Hiking, Climbing, Animal Caretaking and Reading**
-
-Existing user A: Enjoys **Football, Hiking, Running, Animal Caretaker and Climbing**
-
-Existing user B: Prefer Singing, Writing and Reading.
-
-Existing user C: Likes Bicycling and Singing.  
-
-New user D: No Data, Cold Start Problem 
-
-----------------------------------------------------------------------------------------------------------------
-
-As an simple example, Clearly,  **User A** has similar interest more similar to new user and we would **assign more weightage **. (weights) 
-
-Now, its just about three users with eight different interest, which is easier for calculations. What would be the case if we have 100 million users and all of them were having 50,000 different varities of interesting data points. Then we may need to leverage the latest methods. 
-
-![image](https://github.com/user-attachments/assets/a102eda4-475a-42f1-a692-e90480215c5e)
-
-![image](https://github.com/user-attachments/assets/937a996b-487a-436b-8329-4b950d9cfad1)
-
-Singular Value Decomposition: (SVD to decompose the original matrices into three smaller matrices)
-![image](https://github.com/user-attachments/assets/50bac5cb-eae8-44f2-8ca0-270a69233eef)
-*Slight variations in the input matrices noted.
-
-
-Take Away from SVD:
-
-1. Higher positive values in the reconstructed matrix indicate stronger recommendations.
-
-2. For users or hobbies not strongly represented, values will remain closer to 0 or negative.
-
-In this case, (User to User): the horse buyer has atleast a good co-relation with User A (0.55 is a good start).
-
-Additionally (Content to Content) we can even recommend user A for "Reading", because of higher positive value (i.e. 0.96, refer last matrices User A and they doesn't have this habit of reading already).  
-
-It's a basic example and there are some drawbacks associated with it, like sparse zero values, curse of dimensionality and other limitations.
 
 Value Proposition: The core concept and unique benefit is still the same **recommend the best similar product/service to the end user** and to help them. 
 
@@ -200,6 +157,57 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 [16] Roy, D., Dutta, M. A systematic review and research perspective on recommender systems. J Big Data 9, 59 (2022). https://doi.org/10.1186/s40537-022-00592-5
 
 [17] A Comprehensive Review of Recommender Systems: Transitioning from Theory to Practice https://doi.org/10.48550/arXiv.2407.13699
+
+
+
+----------------------------------------
+
+Rough Workout's:
+
+To start with the basic example:
+
+Lets say, we have three best users, and all of them were having equal knowledge but totally different varities of interests:
+
+As a New User (Product/Service Buyer), may likes **Football, Hiking, Climbing, Animal Caretaking and Reading**
+
+Existing user A: Enjoys **Football, Hiking, Running, Animal Caretaker and Climbing**
+
+Existing user B: Prefer Singing, Writing and Reading.
+
+Existing user C: Likes Bicycling and Singing.  
+
+New user D: No Data, Cold Start Problem 
+
+----------------------------------------------------------------------------------------------------------------
+
+As an simple example, Clearly,  **User A** has similar interest more similar to new user and we would **assign more weightage **. (weights) 
+
+Now, its just about three users with eight different interest, which is easier for calculations. What would be the case if we have 100 million users and all of them were having 50,000 different varities of interesting data points. Then we may need to leverage the latest methods. 
+
+![image](https://github.com/user-attachments/assets/a102eda4-475a-42f1-a692-e90480215c5e)
+
+![image](https://github.com/user-attachments/assets/937a996b-487a-436b-8329-4b950d9cfad1)
+
+Singular Value Decomposition: (SVD to decompose the original matrices into three smaller matrices)
+![image](https://github.com/user-attachments/assets/50bac5cb-eae8-44f2-8ca0-270a69233eef)
+*Slight variations in the input matrices noted.
+
+
+Take Away from SVD:
+
+1. Higher positive values in the reconstructed matrix indicate stronger recommendations.
+
+2. For users or hobbies not strongly represented, values will remain closer to 0 or negative.
+
+In this case, (User to User): the horse buyer has atleast a good co-relation with User A (0.55 is a good start).
+
+Additionally (Content to Content) we can even recommend user A for "Reading", because of higher positive value (i.e. 0.96, refer last matrices User A and they doesn't have this habit of reading already).  
+
+It's a basic example and there are some drawbacks associated with it, like sparse zero values, curse of dimensionality and other limitations.
+
+
+
+
 
 
 
