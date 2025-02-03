@@ -70,6 +70,11 @@ Sample Output:
 ![image](https://github.com/user-attachments/assets/ae41618e-a913-44c1-80d6-76d15a3faba3)
 
 
+**Logit Score:** Direct Score, before applying any activation funtions, non bounded ( can be larger and can go larger negative values). Higher the logit score, better the prediction is.
+
+**Probability:** Derived from logit score after applying softmax function (always between 0 to 1), probability is calculated across all the Items in the list, so it might seem to be less, distributed across all of them. 
+
+
 -------------------------------------------------------------------------------------------------------------------------------------
 Model 2: (GRU4Rec)
 ![image](https://github.com/user-attachments/assets/5efd7700-083e-4dfc-a73d-576a17de20a4)
