@@ -1,6 +1,6 @@
 # Recommender Systems: 
 
-Audio Podcast Version: https://notebooklm.google.com/notebook/4bdd617f-a731-45eb-b3e6-3cdc2d7479d2/audio
+Audio Podcast Version: https://www.dropbox.com/scl/fi/zv511ysp0ecdaqbo9nskp/Recommender-Systems_-Architectures-Applications-and-Market-Analysis.wav?rlkey=3u9za3bbogvc0506ubxohxe2w&st=gy3ekapc&dl=0
 
 At its core, a **recommendation engine** uses computer algorithms to predict and suggest items of interest to users based on their past behaviors and contextual data. On the deep learning front, xLSTM (extended LSTM) and Transformers have been evolved with latest architectures in recent years and plays a very important role in Large Language Models. 
 
