@@ -15,7 +15,7 @@ A transformer-based recommender system uses an embedding layer to convert the us
 
 **Proposed Hybrid Methods & Noval Approaches:** xLSTM (extended LSTM) incorporates architectural enhancements like attention mechanism, gating improvments and bidirectional capabilities. It will be impactful due to several unique aspects when to compared to the traditional successful methods. 
 
-Value Proposition: The core concept and unique benefit is still the same **recommend the best similar product/service to the end user** and to help them. 
+Value Proposition: The core concept and unique benefit is still the same **recommend the best similar product/service to the end user** and to help the users. 
 
 It is also estimated that the **market scope** for recommender system is expected to be approx 20-28 billion by 2030, currently in 2024 valued approx 6 billion US dollars. 
 
