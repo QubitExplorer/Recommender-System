@@ -187,7 +187,7 @@ New user D: No Data, Cold Start Problem
 
 As an simple example, Clearly,  **User A** has similar interest more similar to new user and we would **assign more weightage **. (weights) 
 
-Now, its just about three users with eight different interest, which is easier for calculations. What would be the case if we have 100 million users and all of them were having 50,000 different varities of interesting data points. Then we may need to leverage the latest methods. 
+Now, its just about three users with eight different interest, which is easier for calculations. What would be the case if we have 100 million users and all of them were having 50,000 different varities of interesting data points. 
 
 ![image](https://github.com/user-attachments/assets/a102eda4-475a-42f1-a692-e90480215c5e)
 
