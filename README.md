@@ -40,6 +40,31 @@ List of Different Varieties of Datasets: (Ref: https://recbole.io/)
 **Sample Input Datasets:**
 ![image](https://github.com/user-attachments/assets/9a728e92-2d62-4f6e-b2cd-96080a482eb1)
 
+**Model Architecture:**
+1. The model is a modified version of BERT (Bidirectional Encoder Representations from Transformers).
+2. It encodes the input sequence using multiple transformer layers:
+      A. Each movie ID is converted into embedding vectors.
+      B. Self-attention mechanism understands contextual relationships between movies.
+      C. Outputs a dense layer that predicts probabilities for all possible movies.
+
+**Making Predictions:**
+During inference:
+    The last few movies a user watched are fed into the model.
+    The model predicts the most likely next movie (or multiple next movies).
+Example:
+    Input (last watched movies): [101, 102, 103]
+    Output (predictions): 104 (Movie D), 105 (Movie E), 106 (Movie F)
+    This means the model suggests that Movie D, E, or F are likely to be watched next.
+
+**Generating Top-K Recommendations:**
+After training, the model can generate recommendations for a given user:
+Takes user’s past watched sequence.
+Masks the last movie (or predicts the next).
+The model outputs probabilities for all movies.
+Top-K movies with the highest probability are recommended.
+
+Instead of Top-K, Sequencial Recommendation needs to be done, considering the timestamp.    
+
 **Performance Optimization:** Comparision and Performance Results For All Approaches:
 1st set of results (To be fine tuned further)
 
