@@ -229,7 +229,7 @@ Take Away from SVD:
 
 2. For users or hobbies not strongly represented, values will remain closer to 0 or negative.
 
-In this case, (User to User): the horse buyer has atleast a good co-relation with User A (0.55 is a good start).
+In this case, (User to User): the user has atleast a good co-relation with User A (0.55 is a good start).
 
 Additionally (Content to Content) we can even recommend user A for "Reading", because of higher positive value (i.e. 0.96, refer last matrices User A and they doesn't have this habit of reading already).  
 
