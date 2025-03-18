@@ -235,6 +235,9 @@ Additionally (Content to Content) we can even recommend user A for "Reading", be
 
 It's a basic example and there are some drawbacks associated with it, like sparse zero values, curse of dimensionality and other limitations.
 
+Normalization, Initialization, Regularization Techniques:
+![image](https://github.com/user-attachments/assets/4dc4d3d1-cf0b-4dcc-977e-013223fc9c90)
+
 
 
 
