@@ -238,6 +238,9 @@ It's a basic example and there are some drawbacks associated with it, like spars
 Normalization, Initialization, Regularization Techniques:
 ![image](https://github.com/user-attachments/assets/4dc4d3d1-cf0b-4dcc-977e-013223fc9c90)
 
+![image](https://github.com/user-attachments/assets/2bbf1811-83aa-410f-bbac-48c14d57d376)
+
+
 
 
 
