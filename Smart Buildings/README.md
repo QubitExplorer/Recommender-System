@@ -8,7 +8,9 @@ Prediction: Time series foundational models would be utilized.
 
 ** Model Approach:**
 
-Data Collection, (Major Weather Platforms API's), Example APIs for real-time environmental data: A. OpenWeatherMap (Temperature, humidity, wind, air quality) → https://openweathermap.org/api
+Data Collection, (Major Weather Platforms API's), Example APIs for real-time environmental data: 
+
+A. OpenWeatherMap (Temperature, humidity, wind, air quality) → https://openweathermap.org/api
 
 B. AirVisual API (CO2, PM2.5, Air Quality Index) → https://www.iqair.com/
 
