@@ -39,7 +39,9 @@ image
 Evaluation Metrics (Mean Square Error, etc),
 Results Interpretation, and
 Optionally, flat maps will be implemented for better visualization.
-Potential Advantages or Benefits Estimation for Smart Buildings:
+
+
+**Potential Advantages or Benefits Estimation for Smart Buildings:**
 
 A. Predictive Maintenance = No Surprise Breakdowns,
 
@@ -73,8 +75,8 @@ O. Grid Independence & Energy Resilience (I.e During Grid Downtimes due to natur
 
 P. Investing for Future
 
-General Value Prop: Smart Buildings transform spaces into intelligent, responsive environments — cutting energy waste, boosting occupant comfort, and unlocking real-time insights for better decisions — all while reducing carbon emissions and operating costs.
+**General Value Prop:** Smart Buildings transform spaces into intelligent, responsive environments — cutting energy waste, boosting occupant comfort, and unlocking real-time insights for better decisions — all while reducing carbon emissions and operating costs.
 
-Reports for reference: IEA International Energy Agency | OECD Organization for Economic Cooperation and Development
+**Reports for reference:** IEA International Energy Agency | OECD Organization for Economic Cooperation and Development
 
 According to the IEA, buildings are responsible for nearly 40% of global energy-related CO₂ emissions. That’s MASSIVE. Climate Change!
