@@ -26,7 +26,7 @@ G. Open Buildings: https://sites.research.google/gr/open-buildings/
 
 Data Preprocessing
 
-A. Missing Data Handling: We can start with simple averaging, forward fill (windows lead), backward fill (windows lag), mean/average, If the goal is to improve the existing model (utilizing inferential statistics includes Probability, Uncertainty, Correlations etc.,), for alternative or for more missing data advanced models (Transformers, LSTM, GANs and xLSTM) for highly non linear data.
+A. Missing Data Handling: We can start with simple averaging, forward fill (windows lead), backward fill (windows lag), mean/average, If the goal is to improve the existing model (utilizing inferential statistics includes Probability, Uncertainty, Correlations etc.,), for alternative or for more missing data advanced models (Transformers, xLSTM, and GANs) for highly non linear data.
 
 Feature Engineering, (Functions to create/select different variables like Temperature, Humidity, CO2, PM2.5, VOCs, Noise, wind speed, carbon emissions, Oxygen, Light Levels, Air flow, thermal, vibrations and lot more.,)
 
