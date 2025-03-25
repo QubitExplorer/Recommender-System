@@ -20,11 +20,9 @@ D. Google's SMart Buildings: https://www.tensorflow.org/datasets/catalog/smart_b
 
 E. CU-BEMS, smart building energy and IAQ data https://www.tensorflow.org/datasets/catalog/smart_buildings
 
-F. Smart Cities India: https://smartcities.data.gov.in/?utm_source=chatgpt.com
+F. Smart Cities: https://www.kaggle.com/datasets/magdamonteiro/smart-cities-index-datasets/data
 
-G. Smart Cities: https://www.kaggle.com/datasets/magdamonteiro/smart-cities-index-datasets/data
-
-H. Open Buildings: https://sites.research.google/gr/open-buildings/
+G. Open Buildings: https://sites.research.google/gr/open-buildings/
 
 Data Preprocessing
 
