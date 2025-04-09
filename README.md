@@ -99,25 +99,26 @@ Sample Output:
 
 **Probability:** Derived from logit score after applying softmax function (always between 0 to 1), probability is calculated across all the Items in the list, so it might seem to be less, distributed across all of them. 
 
-
--------------------------------------------------------------------------------------------------------------------------------------
-Model 2: (GRU4Rec)
-![image](https://github.com/user-attachments/assets/5efd7700-083e-4dfc-a73d-576a17de20a4)
-
-
---------------------------------------------------------------------------------------------------------------------------------------
-Model 3: (SAS4Rec)
-
-![image](https://github.com/user-attachments/assets/12d95ab8-3fc4-400c-a16f-9fdcfceef5d8)
-
 --------------------------------------------------------------------------------------------------------------------------------------
 
-Model 4: (xLSTM)
+Model 2: (xLSTM)
+
+Flow Chart:
+![image](https://github.com/user-attachments/assets/9e988866-e5aa-45ec-93d2-0a692e8ea762)
 
 ![image](https://github.com/user-attachments/assets/95a2c721-cab0-4897-bb1d-adb39637c048)
 
 ![image](https://github.com/user-attachments/assets/45ce209d-55da-40c4-9e6e-cf9c162da472)
 
+-------------------------------------------------------------------------------------------------------------------------------------
+Model 3: (GRU4Rec)
+![image](https://github.com/user-attachments/assets/5efd7700-083e-4dfc-a73d-576a17de20a4)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Model 4: (SAS4Rec)
+
+![image](https://github.com/user-attachments/assets/12d95ab8-3fc4-400c-a16f-9fdcfceef5d8)
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
