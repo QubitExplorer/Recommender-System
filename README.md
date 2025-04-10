@@ -251,6 +251,10 @@ Normalization, Initialization, Regularization Techniques:
 ![image](https://github.com/user-attachments/assets/2bbf1811-83aa-410f-bbac-48c14d57d376)
 
 
+Numpy vs Tensorflow:
+
+![image](https://github.com/user-attachments/assets/0222bf63-2bb6-42f3-908e-4d211483077a)
+
 
 
 
