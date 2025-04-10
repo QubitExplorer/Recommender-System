@@ -256,6 +256,12 @@ Numpy vs Tensorflow:
 ![image](https://github.com/user-attachments/assets/0222bf63-2bb6-42f3-908e-4d211483077a)
 
 
+**List of GPU's Availability:**
+
+![image](https://github.com/user-attachments/assets/c19f0af2-17d4-49af-82e0-31900cb9ac12)
+
+
+
 
 
 
