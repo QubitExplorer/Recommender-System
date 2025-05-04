@@ -206,6 +206,7 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 
 ----------------------------------------
 
+Rough Workout's:
 
 ![image](https://github.com/user-attachments/assets/937a996b-487a-436b-8329-4b950d9cfad1)
 
@@ -225,12 +226,6 @@ In this case, (User to User): the user has atleast a good co-relation with User 
 Additionally (Content to Content) we can even recommend user A for "Reading", because of higher positive value (i.e. 0.96, refer last matrices User A and they doesn't have this habit of reading already).  
 
 It's a basic example and there are some drawbacks associated with it, like sparse zero values, curse of dimensionality and other limitations.
-
-Normalization, Initialization, Regularization Techniques:
-![image](https://github.com/user-attachments/assets/4dc4d3d1-cf0b-4dcc-977e-013223fc9c90)
-
-![image](https://github.com/user-attachments/assets/2bbf1811-83aa-410f-bbac-48c14d57d376)
-
 
 Numpy vs Tensorflow:
 
