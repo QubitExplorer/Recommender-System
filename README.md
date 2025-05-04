@@ -208,8 +208,6 @@ SEO (Search Engine Optimization) and SEM techniques may also be merged, along wi
 
 Rough Workout's:
 
-![image](https://github.com/user-attachments/assets/937a996b-487a-436b-8329-4b950d9cfad1)
-
 Singular Value Decomposition: (SVD to decompose the original matrices into three smaller matrices)
 ![image](https://github.com/user-attachments/assets/50bac5cb-eae8-44f2-8ca0-270a69233eef)
 *Slight variations in the input matrices noted.
@@ -221,11 +219,6 @@ Take Away from SVD:
 
 2. For users or hobbies not strongly represented, values will remain closer to 0 or negative.
 
-In this case, (User to User): the user has atleast a good co-relation with User A (0.55 is a good start).
-
-Additionally (Content to Content) we can even recommend user A for "Reading", because of higher positive value (i.e. 0.96, refer last matrices User A and they doesn't have this habit of reading already).  
-
-It's a basic example and there are some drawbacks associated with it, like sparse zero values, curse of dimensionality and other limitations.
 
 Numpy vs Tensorflow:
 
