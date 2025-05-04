@@ -210,7 +210,7 @@ Rough Workout's:
 
 To start with the basic example:
 
-Lets say, we have three best users, and all of them were having equal knowledge but totally different varities of interests:
+Lets say, we have three users with different varities of interests:
 
 As a New User (Product/Service Buyer), may likes **Football, Hiking, Climbing, Animal Caretaking and Reading**
 
