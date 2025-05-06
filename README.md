@@ -68,7 +68,7 @@ Instead of Top-K, Sequencial Recommendation needs to be done, considering the ti
 **Performance Optimization:** Comparision and Performance Results For All Approaches:
 1st set of results (To be fine tuned further)
 
-![image](https://github.com/user-attachments/assets/b2f78535-fe0f-419d-822d-57626102bd5f)
+![image](https://github.com/user-attachments/assets/6f6ab94b-4b13-4fc4-a7ff-9fab78e2baa1)
 
 **Evaluation Metrics:** To evaluate the model accuracy Recall 5, 10, Precision, NDCG will be used mainly. 
 
@@ -121,9 +121,7 @@ Model 2: (xLSTM)
 Flow Chart:
 ![image](https://github.com/user-attachments/assets/9e988866-e5aa-45ec-93d2-0a692e8ea762)
 
-![image](https://github.com/user-attachments/assets/95a2c721-cab0-4897-bb1d-adb39637c048)
-
-![image](https://github.com/user-attachments/assets/45ce209d-55da-40c4-9e6e-cf9c162da472)
+![image](https://github.com/user-attachments/assets/c498de85-199b-495d-9684-bfee7c646f42)
 
 -------------------------------------------------------------------------------------------------------------------------------------
 Model 3: (GRU4Rec)
