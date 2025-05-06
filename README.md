@@ -126,23 +126,31 @@ Sample Output:
 
 Model 1: (xLSTM)
 
-Model Parameters:
+Section 1: Model Parameters:
 
 ![image](https://github.com/user-attachments/assets/6b456f6f-c137-4782-a333-6a76fd5b0d58)
 
-Flow Chart:
+Section 2: Flow Chart:
 
 ![image](https://github.com/user-attachments/assets/9e988866-e5aa-45ec-93d2-0a692e8ea762)
+
+Section 3: Evaluation Results and Predictions
 
 ![image](https://github.com/user-attachments/assets/c498de85-199b-495d-9684-bfee7c646f42)
 
 -------------------------------------------------------------------------------------------------------------------------------------
 Model 2: (GRU4Rec)
+
+Evaluation Results and Predictions:
+
 ![image](https://github.com/user-attachments/assets/5efd7700-083e-4dfc-a73d-576a17de20a4)
 
 
 --------------------------------------------------------------------------------------------------------------------------------------
+
 Model 3: (SAS4Rec)
+
+Evaluation Results and Predictions:
 
 ![image](https://github.com/user-attachments/assets/12d95ab8-3fc4-400c-a16f-9fdcfceef5d8)
 
