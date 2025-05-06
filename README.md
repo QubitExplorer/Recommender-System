@@ -126,9 +126,12 @@ Sample Output:
 
 Model 1: (xLSTM)
 
+Model Parameters:
+
 ![image](https://github.com/user-attachments/assets/6b456f6f-c137-4782-a333-6a76fd5b0d58)
 
 Flow Chart:
+
 ![image](https://github.com/user-attachments/assets/9e988866-e5aa-45ec-93d2-0a692e8ea762)
 
 ![image](https://github.com/user-attachments/assets/c498de85-199b-495d-9684-bfee7c646f42)
