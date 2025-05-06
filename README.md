@@ -124,7 +124,9 @@ Sample Output:
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-Model 2: (xLSTM)
+Model 1: (xLSTM)
+
+![image](https://github.com/user-attachments/assets/6b456f6f-c137-4782-a333-6a76fd5b0d58)
 
 Flow Chart:
 ![image](https://github.com/user-attachments/assets/9e988866-e5aa-45ec-93d2-0a692e8ea762)
@@ -132,18 +134,18 @@ Flow Chart:
 ![image](https://github.com/user-attachments/assets/c498de85-199b-495d-9684-bfee7c646f42)
 
 -------------------------------------------------------------------------------------------------------------------------------------
-Model 3: (GRU4Rec)
+Model 2: (GRU4Rec)
 ![image](https://github.com/user-attachments/assets/5efd7700-083e-4dfc-a73d-576a17de20a4)
 
 
 --------------------------------------------------------------------------------------------------------------------------------------
-Model 4: (SAS4Rec)
+Model 3: (SAS4Rec)
 
 ![image](https://github.com/user-attachments/assets/12d95ab8-3fc4-400c-a16f-9fdcfceef5d8)
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-Model 5: (BERT4REC - Steam Datasets)
+Model 4: (BERT4REC - Steam Datasets)
 
 ![image](https://github.com/user-attachments/assets/911ae8a1-14f4-4814-b29d-703fdf4f6319)
 
