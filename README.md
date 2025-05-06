@@ -33,9 +33,8 @@ List of Different Varieties of Datasets: (Ref: https://recbole.io/)
 ![image](https://github.com/user-attachments/assets/e842adf0-6eaa-48b7-9ffa-68312db0788e)
 
 -------------------------------------------------------------------------------------------------------------------------------------
-**Dataset 1: MovieLENS (100-K)**
 
-**Model: Bert4Rec**
+**Model 1: Bert4Rec** Datasets: MovieLENS (100-K)
 
 **Sample Input Datasets:**
 ![image](https://github.com/user-attachments/assets/9a728e92-2d62-4f6e-b2cd-96080a482eb1)
@@ -124,7 +123,7 @@ Sample Output:
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-Model 1: (xLSTM)
+Model 2: xLSTM (Datasets: MovieLENS100-K, MovieLENS1M and MovieLENS20M)
 
 Section 1: Model Parameters:
 
@@ -134,12 +133,12 @@ Section 2: Flow Chart:
 
 ![image](https://github.com/user-attachments/assets/9e988866-e5aa-45ec-93d2-0a692e8ea762)
 
-Section 3: Evaluation Results and Predictions
+Section 3: Evaluation Results and Predictions for MovieLENS1M
 
 ![image](https://github.com/user-attachments/assets/c498de85-199b-495d-9684-bfee7c646f42)
 
 -------------------------------------------------------------------------------------------------------------------------------------
-Model 2: (GRU4Rec)
+Model 3: GRU4Rec (Datasets: MovieLENS100-K, MovieLENS1M and MovieLENS20M)
 
 Evaluation Results and Predictions:
 
@@ -148,7 +147,7 @@ Evaluation Results and Predictions:
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-Model 3: (SAS4Rec)
+Model 4: SAS4Rec (Datasets: MovieLENS100-K, MovieLENS1M and MovieLENS20M)
 
 Evaluation Results and Predictions:
 
@@ -156,7 +155,7 @@ Evaluation Results and Predictions:
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-Model 4: (BERT4REC - Steam Datasets)
+Model 5: BERT4REC (Steam Datasets)
 
 ![image](https://github.com/user-attachments/assets/911ae8a1-14f4-4814-b29d-703fdf4f6319)
 
