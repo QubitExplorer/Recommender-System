@@ -133,7 +133,7 @@ Section 2: Flow Chart:
 
 Model Explanation in 23 steps:
 
-Step 1: User watches a sequence of movies: e.g., \[Die Hard, Terminator, Lethal Weapon].
+Step 1: User watches a sequence of movies: e.g., \[Die Hard, Terminator, The Matrix].
 
 * Why: To learn temporal preferences by modeling user behavior over a time-ordered sequence of interactions. This reflects the dynamic evolution of user interests in a sequential recommendation system.
 * How: Real-world logs from MovieLens dataset are parsed per user and timestamp to reconstruct watch histories.
