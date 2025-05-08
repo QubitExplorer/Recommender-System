@@ -251,8 +251,8 @@ Step 23: This pipeline can be repeated for other users, continuously learning pa
 * Why: Model retraining or online learning allows adapting to evolving user preferences.
 * How: New interaction logs are appended to training data and the model is updated accordingly.
 
+![image](https://github.com/user-attachments/assets/d19312a2-17e7-4750-a0e7-034cb8296a58)
 
-![image](https://github.com/user-attachments/assets/9e988866-e5aa-45ec-93d2-0a692e8ea762)
 
 **Model Architecture Hyperparameters at a glance:** (xLSTMLargeConfig — Advanced Configuration with Theoretical Justifications)
 
