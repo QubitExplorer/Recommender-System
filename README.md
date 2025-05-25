@@ -394,6 +394,19 @@ Section 3: Evaluation Results and Predictions for MovieLENS1M
 
 ![image](https://github.com/user-attachments/assets/16a6f021-e193-46ec-a8a3-a1c59828759a)
 
+
+
+**Which movies dominate the top-10 predictions across the test set?**
+
+To understand:
+
+# Popularity bias (if a few items always appear), # Low diversity in predictions, # Whether the model is overfitting to frequent items
+
+**First, To study the popularity bias:**
+
+![image](https://github.com/user-attachments/assets/0e1b8ee2-b545-4c2c-bd0d-add90319c722)
+
+
 -------------------------------------------------------------------------------------------------------------------------------------
 Model 3: GRU4Rec (Datasets: MovieLENS100-K, MovieLENS1M and MovieLENS20M)
 
