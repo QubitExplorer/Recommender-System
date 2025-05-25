@@ -392,7 +392,7 @@ Step 4: recall_list, mrr_list, ndcg_list = [], [], []
 
 Section 3: Evaluation Results and Predictions for MovieLENS1M
 
-![image](https://github.com/user-attachments/assets/c498de85-199b-495d-9684-bfee7c646f42)
+![image](https://github.com/user-attachments/assets/16a6f021-e193-46ec-a8a3-a1c59828759a)
 
 -------------------------------------------------------------------------------------------------------------------------------------
 Model 3: GRU4Rec (Datasets: MovieLENS100-K, MovieLENS1M and MovieLENS20M)
@@ -407,8 +407,6 @@ Evaluation Results and Predictions:
 Model 4: SAS4Rec (Datasets: MovieLENS100-K, MovieLENS1M and MovieLENS20M)
 
 Evaluation Results and Predictions:
-
-![image](https://github.com/user-attachments/assets/12d95ab8-3fc4-400c-a16f-9fdcfceef5d8)
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
