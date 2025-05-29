@@ -2,6 +2,8 @@
 
 Audio Podcast Version: https://www.dropbox.com/scl/fi/zv511ysp0ecdaqbo9nskp/Recommender-Systems_-Architectures-Applications-and-Market-Analysis.wav?rlkey=3u9za3bbogvc0506ubxohxe2w&st=gy3ekapc&dl=0
 
+Estimated Read Time: 15-20 Minutes
+
 At its core, a **recommendation engine** uses computer algorithms to predict and suggest items of interest to users based on their past behaviors and contextual data. On the deep learning front, xLSTM (extended LSTM) and Transformers have been evolved with latest architectures in recent years and plays a very important role in Large Language Models. 
 
 Since recommenders have became an essential part of our daily digital experiences, in this paper we will be leveraging XLSTM architecture based recommenders and will be comparing the results with other modern architectures like Autotransformers, Recurring Neural Networks (RNN) and other Matrix Factorization Methods. xLSTM incorporates architectural enhancements like attention mechanism, gating improvments and bidirectional capabilities. It will be impactful due to several unique aspects when to compared to the tradional successful methods. 
@@ -392,7 +394,20 @@ Step 4: recall_list, mrr_list, ndcg_list = [], [], []
 
 Section 3: Evaluation Results and Predictions for MovieLENS1M
 
-![image](https://github.com/user-attachments/assets/c498de85-199b-495d-9684-bfee7c646f42)
+![image](https://github.com/user-attachments/assets/16a6f021-e193-46ec-a8a3-a1c59828759a)
+
+
+
+**Which movies dominate the top-10 predictions across the test set?**
+
+To understand:
+
+# Popularity bias (if a few items always appear), # Low diversity in predictions, # Whether the model is overfitting to frequent items
+
+**First, To study the popularity bias:**
+
+![image](https://github.com/user-attachments/assets/0e1b8ee2-b545-4c2c-bd0d-add90319c722)
+
 
 -------------------------------------------------------------------------------------------------------------------------------------
 Model 3: GRU4Rec (Datasets: MovieLENS100-K, MovieLENS1M and MovieLENS20M)
@@ -407,8 +422,6 @@ Evaluation Results and Predictions:
 Model 4: SAS4Rec (Datasets: MovieLENS100-K, MovieLENS1M and MovieLENS20M)
 
 Evaluation Results and Predictions:
-
-![image](https://github.com/user-attachments/assets/12d95ab8-3fc4-400c-a16f-9fdcfceef5d8)
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
