@@ -41,37 +41,7 @@ Optionally, flat maps will be implemented for better visualization.
 
 **Potential Advantages or Benefits Estimation for Smart Buildings:**
 
-A. Predictive Maintenance = No Surprise Breakdowns,
-
-B. Environmental Impact,
-
-C. Higher Asset Value & Tenant Attraction,
-
-D. Carbon Emission, Energy Optimization and Savings,
-
-E. Integration with Renewable energy, and
-
-F. Smarter Construction, Reduced Operational Waste, and Energy Efficient Buildings.
-
-G. Cleaner Indoor Air = Healthier Humans
-
-H. Lower Utility Bills = Instant Payback
-
-I. Carbon Taxes or Regulations
-
-J. Attracting Talents, or workforce to a modern buildings.
-
-K. Operational Efficiency Without More Staff
-
-L. Better ROI Over Time (Better resale value)
-
-M. AI climate models, part of smart cities. I.e. Integration
-
-N. Customer Satisfaction
-
-O. Grid Independence & Energy Resilience (I.e During Grid Downtimes due to natural disasters, energy downtime etc.,)
-
-P. Investing for Future
+A. Predictive Maintenance = No Breakdowns, B. Environmental Impact, C. Higher Asset Value & Tenant Attraction, D. Carbon Emission, Energy Optimization and Savings, E. Integration with Renewable energy, and F. Smarter Construction, Reduced Operational Waste, and Energy Efficient Buildings. G. Cleaner Indoor Air = Healthier Humans H. Lower Utility Bills = Instant Payback, I. Carbon Taxes or Regulations, J. Attracting Talents, or workforce to a modern buildings, K. Operational Efficiency Without More Staff, L. Better ROI Over Time (Better resale value), M. AI climate models, part of smart cities. I.e. Integration, N. Customer Satisfaction, O. Grid Independence & Energy Resilience (I.e During Grid Downtimes due to natural disasters, energy downtime etc.,), P. Investing for Future
 
 **General Value Prop:** Smart Buildings transform spaces into intelligent, responsive environments — cutting energy waste, boosting occupant comfort, and unlocking real-time insights for better decisions — all while reducing carbon emissions and operating costs.
 
