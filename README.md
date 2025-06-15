@@ -44,7 +44,7 @@ This script trains a sequential recommender system on a **user-specified/customi
 
 It preprocesses the data, maps user/item IDs, and splits interactions into train/validation/test sequences.
 
-Users can select among **four models: standard LSTM, xLSTM, BERT4REC, SAS4REC** variant with configurable parameters.
+Users can select among **four AI models: standard LSTM, xLSTM, BERT4REC, SAS4REC** variant with configurable parameters.
 
 The selected model is trained using PyTorch with evaluation metrics like Recall@10, MRR, Hit Rate and NDCG.
 
