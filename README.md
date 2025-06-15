@@ -2,7 +2,7 @@
 
 Audio Podcast Version: https://www.dropbox.com/scl/fi/zv511ysp0ecdaqbo9nskp/Recommender-Systems_-Architectures-Applications-and-Market-Analysis.wav?rlkey=3u9za3bbogvc0506ubxohxe2w&st=gy3ekapc&dl=0
 
-Estimated Read Time: 15-20 Minutes
+Estimated Read Time: 10-15 Minutes
 
 Introduction to Recommender Systems:
 
